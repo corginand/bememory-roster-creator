@@ -140,7 +140,7 @@ function HomePage() {
                     <td key={key}>
                       <div className='image-container'>
                         <div className='nametag'><p>{item.name}</p></div>
-                        <img src={item.image} />
+                        <img src={item.img} />
                         <div className='close-btn' onClick={() => removeFromList(item.id, level)}>X</div>
                       </div>
                     </td>
