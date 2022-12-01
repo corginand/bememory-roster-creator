@@ -22,11 +22,10 @@ function HomePage() {
   const [currentCount, setCurrentCount] = useState(0);
 
   const handleClose = () => setShow(false);
-  const domain = 'http://localhost:3000'
 
   async function getDigimonData() {
     try {
-      const res = await fetch(domain +'/api/digimon');
+      const res = await fetch('/api/digimon');
       const digimonData = await res.json();
       setAutocompleteData(digimonData.results)
     } catch (err) {
