@@ -118,7 +118,7 @@ function HomePage() {
       <div className={'autocomplete-container'}>
       <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Add a Digimon</Accordion.Header>
+        <Accordion.Header>Add a Digimon :)</Accordion.Header>
         <Accordion.Body>
         <ReactSearchAutocomplete
           items={autocompleteData}
