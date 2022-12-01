@@ -34,7 +34,6 @@ function HomePage() {
   }
 
   const handleOnSelect = (item) => {
-    // the item selected
     if(currentCount < 23) {
       setCurrentDigimon(item)
       setShow(true)
@@ -82,13 +81,13 @@ function HomePage() {
     setCurrentCount(totalValue)
   }, [currentRosterList]);
 
-    return ( 
-      <>
-      <Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title> Pick a column for <b>{currentDigimon.name}</b></Modal.Title>
-        </Modal.Header>
-        <Form noValidate onSubmit={addToColumn}>
+  return ( 
+    <>
+    <Modal show={show} onHide={handleClose}>
+      <Modal.Header closeButton>
+        <Modal.Title> Pick a column for <b>{currentDigimon.name}</b></Modal.Title>
+      </Modal.Header>
+      <Form noValidate onSubmit={addToColumn}>
         <Modal.Body>
           <div key={`inline-radio`} className="mb-3">
             {levelTypes.map((level, levelKey) =>
@@ -104,56 +103,56 @@ function HomePage() {
               )}
             )}
           </div>
-
         </Modal.Body>
         <Modal.Footer>
           <Button variant="primary" type="submit">
             Save
           </Button>
         </Modal.Footer>
-        </Form>
-      </Modal>
+      </Form>
+    </Modal>
 
-      <div className={'autocomplete-container'}>
+    <div className={'autocomplete-container'}>
       <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Add a Digimon :)</Accordion.Header>
-        <Accordion.Body>
-        <ReactSearchAutocomplete
-          items={autocompleteData}
-          onSelect={handleOnSelect}
-          maxResults={7}
-          formatResult={formatResult}
-        />
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
-      </div>
-      <Table bordered cellSpacing="0" cellPadding={0}>
-        <tbody>
-          {levelTypes.map((level, levelKey) =>
-            {return (
-              <tr key={levelKey}>
-                <th>{level}</th>
-                {currentRosterList[level].map((item, key) => 
-                  {return (
-                    <td key={key}>
-                      <div className='image-container'>
-                        <div className='nametag'><p>{item.name}</p></div>
-                        <img src={item.img} />
-                        <div className='close-btn' onClick={() => removeFromList(item.id, level)}>X</div>
-                      </div>
-                    </td>
-                  )}
+        <Accordion.Item eventKey="0">
+          <Accordion.Header>Add a Digimon</Accordion.Header>
+          <Accordion.Body>
+            <ReactSearchAutocomplete
+              items={autocompleteData}
+              onSelect={handleOnSelect}
+              maxResults={7}
+              formatResult={formatResult}
+            />
+          </Accordion.Body>
+        </Accordion.Item>
+      </Accordion>
+    </div>
+
+    <Table bordered cellSpacing="0" cellPadding={0}>
+      <tbody>
+        {levelTypes.map((level, levelKey) =>
+          {return (
+            <tr key={levelKey}>
+              <th>{level}</th>
+              {currentRosterList[level].map((item, key) => 
+                {return (
+                  <td key={key}>
+                    <div className='image-container'>
+                      <div className='nametag'><p>{item.name}</p></div>
+                      <img src={item.img} />
+                      <div className='close-btn' onClick={() => removeFromList(item.id, level)}>X</div>
+                    </div>
+                  </td>
                 )}
-              </tr>
               )}
+            </tr>
           )}
+        )}
       </tbody>
     </Table>
     <span>{currentCount} out of 23 slots used</span>
-  </>
+    </>
   )
 }
   
-  export default HomePage
+export default HomePage
