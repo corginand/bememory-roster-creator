@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import Table from 'react-bootstrap/Table';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 import Modal from 'react-bootstrap/Modal';
@@ -128,28 +128,32 @@ function HomePage() {
       </Accordion>
     </div>
 
-    <Table bordered cellSpacing="0" cellPadding={0}>
-      <tbody>
-        {levelTypes.map((level, levelKey) =>
-          {return (
-            <tr key={levelKey}>
-              <th>{level}</th>
-              {currentRosterList[level].map((item, key) => 
+    <div className={'main-table'}>
+      {levelTypes.map((level, levelKey) =>
+        {return (
+          <div className={"table-column"}>
+            <div className={"column-name"}><span>{level}</span></div>
+            {currentRosterList[level].map((item, key) => 
                 {return (
-                  <td key={key}>
+                  <div className={'table-cell'} key={key}>
+                    <div className='line-container'>
+                      <div className='line-container-top' />
+                      <div className='line-container-bottom' />
+                    </div>
                     <div className='image-container'>
-                      <div className='nametag'><p>{item.name}</p></div>
                       <img src={item.img} />
                       <div className='close-btn' onClick={() => removeFromList(item.id, level)}>X</div>
                     </div>
-                  </td>
+                    <div className='line-container'>
+                      <div className='line-container-top' />
+                      <div className='line-container-bottom' />
+                    </div>
+                  </div>
                 )}
               )}
-            </tr>
-          )}
-        )}
-      </tbody>
-    </Table>
+          </div>)}
+      )}
+    </div>
     <span>{currentCount} out of 23 slots used</span>
     </>
   )

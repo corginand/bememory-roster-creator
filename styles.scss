@@ -1,4 +1,5 @@
 $base-width: 16vw;
+$base-width-new: 120px;
 
 body {
   background-color: #2BA6F6 !important;
@@ -30,6 +31,90 @@ table {
     border-bottom: 2px solid !important;
     width: $base-width;
     background-color: #5DD780 !important;
+  }
+}
+
+.main-table {
+  border-collapse: collapse;
+  width: fit-content !important;
+  margin: 0px auto;
+
+  .table-column {
+    display: table-cell;
+    padding: 0 calc($base-width-new/2);
+  }
+
+  .table-column .table-cell {
+    display: flex;
+    height: $base-width-new;
+    padding: 0 !important;
+    //margin-bottom: 16px;
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      padding: 5px;
+    }
+
+    &:nth-child(2) .line-container {
+      &:first-child .line-container-top {
+        border-left: none !important;
+      }
+
+      &:last-child .line-container-top {
+        border-right: none !important;
+      }
+    }
+
+    &:last-child .line-container {
+      &:first-child .line-container-bottom {
+        border-left: none !important;
+      }
+
+      &:last-child .line-container-bottom {
+        border-right: none !important;
+      }
+    }
+  }
+
+  .column-name {
+    //border-bottom: 2px solid !important;
+    width: $base-width-new;
+  }
+
+  .image-container{
+    .close-btn{
+      top: 0;
+    }
+  }
+
+  .line-container {
+    height: $base-width-new;
+    width: calc($base-width-new / 3);
+
+    .line-container-top {
+      border-bottom: 1px solid !important;
+      height: calc($base-width-new / 2);
+      width: calc($base-width-new / 3);
+    }
+
+    .line-container-bottom {
+      border-top: 1px solid !important;
+      height: calc($base-width-new / 2);
+      width: calc($base-width-new / 3);
+    }
+
+    &:first-child{
+      .line-container-top, .line-container-bottom {
+        border-left: 1px solid !important;
+      }
+    }
+
+    &:last-child{
+      .line-container-top, .line-container-bottom {
+        border-right: 1px solid !important;
+      }
+    }
   }
 }
 
