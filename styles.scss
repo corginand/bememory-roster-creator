@@ -41,7 +41,16 @@ table {
 
   .table-column {
     display: table-cell;
-    padding: 0 calc($base-width-new/2);
+    //padding: 0 calc($base-width-new/2);
+    padding: 12px 0 25px;
+
+    &:first-child .line-container:first-child{
+      display: none;
+    }
+
+    &:last-child .line-container:last-child{
+      display: none;
+    }
   }
 
   .table-column .table-cell {
@@ -53,7 +62,7 @@ table {
     img {
       max-height: 100%;
       max-width: 100%;
-      padding: 5px;
+      padding: 5px 0;
     }
 
     &:nth-child(2) .line-container {
@@ -80,6 +89,8 @@ table {
   .column-name {
     //border-bottom: 2px solid !important;
     width: $base-width-new;
+    line-height: 0;
+    margin-bottom: 12px;
   }
 
   .image-container{
@@ -156,4 +167,52 @@ table {
   margin: 8px auto 16px;
   width: 50%;
   max-width: 480px;
+}
+
+.line-table-column{
+  display: table-cell;
+  width: calc($base-width-new / 3);
+
+  .line-table-element{
+    height: 50%;
+  }
+}
+
+//
+.line-table-column { 
+  position: relative;
+}
+
+  .line-table-column:before { 
+    content: '';
+    width: calc($base-width-new / 3);
+  position: absolute;
+  border-bottom: 2px solid;
+  z-index:0;
+  }
+//
+
+.line-table-column-0:before{
+  display: var(--display0);
+  top: var(--value0);
+}
+
+.line-table-column-1:before{
+  display: var(--display1);
+  top: var(--value1);
+}
+
+.line-table-column-2:before{
+  display: var(--display2);
+  top: var(--value2);
+}
+
+.line-table-column-3:before{
+  display: var(--display3);
+  top: var(--value3);
+}
+
+.line-table-column-4:before{
+  display: var(--display4);
+  top: var(--value4);
 }
