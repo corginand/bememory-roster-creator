@@ -1,5 +1,68 @@
 const digiData = [
     {
+        "name": "GreyKnightsmon",
+        "level": "Mega",
+        "type": "Dark Knight",
+        "attribute": "Virus",
+        "specialMoves": [
+            "Gigas Spiral",
+            "Hell Incinerate",
+            "Death Destroyer"
+        ],
+        "description": "GreyKnightsmon is the \"Dragon Knight Form\" that appears when MetalGreymon's charging power further enhances DarkKnightmon's superior battle prowess. However impenetrable one's defenses, if GreyKnightsmon appears on the battlefield, its drill lance will demolish them.<br>When performing its special moves, GreyKnightsmon wields its lance drill, piercing opponents with it during its Gigas Spiral technique. It also creates a giant tornado of flames for its Hell Incinerate attack. GreyKnightsmon also has two cannons on its back, from which it shoots orbs of darkness during its Death Destroyer move.",
+        "img": "https://digimon.net/cimages/digimon/greyknightsmon.jpg"
+    },
+    {
+        "name": "ShinMonzaemon",
+        "level": "Mega",
+        "type": "Puppet",
+        "attribute": "Vaccine",
+        "specialMoves": [
+            "Nightmare Rain",
+            "Fantastic Smash",
+            "Sweetheart Attack"
+        ],
+        "description": "A Puppet Digimon that Digivolved as a result of nightmare-related data absorbed and analyzed by Monzaemon. At first glance, it looks like a teddy bear, but is actually made of a mysterious substance that is both squishy and amorphous, like some kind of cross between slime and clouds.ShinMonzaemon is a moody Digimon with a childish personality that does not make decisions based in logic.It likes simple and cute things, causing it to target immature Digimon Rookie level and below. On the other hand, ShinMonzaemon considers Digimon that have grown beyond Rookie to be repulsive existences imbued with impure data, and despises even being close to them.When ShinMonzaemon feeds, it extends its soft wings to envelope its prey. Since its entire body is made of extremely powerful energy, even the softest touch from it is said to be enough to cause very weak Digimon to lose consciousness.<br>ShinMonzaemon's special moves include Nightmare Rain, in which it sends countless parts of its body flying to steal its target's consciousness; Fantastic Smash, in which it changes its right arm into a hammer to crush its enemy; and Sweetheart Attack, in which it fires a laser from its left eye to pierce its target's DigiCore.",
+        "img": "https://digimon.net/cimages/digimon/shinmonzaemon.jpg"
+    },
+    {
+        "name": "Zanmetsumon",
+        "level": "Ultimate",
+        "type": "Beast Dragon",
+        "attribute": "Virus",
+        "specialMoves": [
+            "Goren-Danreizan",
+            "Goju-Rasendachi",
+            "Gokumon-Shibari"
+        ],
+        "description": "A master swordsman Digimon that wields five blades. Zanmetsumon wanders the Digital World, fighting day in, day out, and thinking exclusively about further honing its sword skills. It is able to swing its swords in all directions, as it holds one in each of its four hands, and tail too. Even its most skilled opponents have difficulty avoiding its onslaught. When using its Goren-Danreizan move, Zanmetsumon attacks with all five blades successively, while it slices with all five blades simultaneously when performing its Goju-Rasendachi technique. Lastly, for its Gokumon-Shibari move, Zanmetsumon lets out a huge roar from the giant mouth on its body to limit its opponents' movements. Zanmetsumon does not believe in slaughtering foes with anything but its blades, however, so it rarely displays this attack.",
+        "img": "https://digimon.net/cimages/digimon/zanmetsumon.jpg"
+    },
+    {
+        "name": "Bombermon",
+        "level": "Ultimate",
+        "type": "Mutant",
+        "attribute": "Virus",
+        "specialMoves": [
+            "Combo Blast",
+            "Limit Explosion"
+        ],
+        "description": "An explosion-loving Digimon and self-proclaimed \"explosion artist.\" With its only concern being how to detonate its bomb in the most beautiful way possible, Bombermon has no regard whatsoever for any victims that may get hurt in the blasts it causes. By snapping the fingers on its left hand, Bombermon can create a self-detonating bomb called the \"BB,\" which is short for \"Brilliant Bomb.\" Under Bombermon's orders, the BB approaches targets, attaches itself to them, and finally detonates. The intensity of the BB's explosion changes depending on Bombermon's mood. When Bombermon is in high spirits, the bomb is more powerful. Bombermon uses different bombs depending on the battle scenario. With its Combo Blast move, it can attach multiple BBs together to set off a chain explosion, or it can detonate a single BB through its Limited Explosion move. While Combo Blast is not an especially powerful move, it is almost instantaneous in speed. On the other hand, the frighteningly powerful Limit Explosion requires a set amount of time to detonate.",
+        "img": "https://digimon.net/cimages/digimon/bombermon.jpg"
+    },
+    {
+        "name": "Ghilliedhumon",
+        "level": "Ultimate",
+        "type": "Pixie",
+        "attribute": "Data",
+        "specialMoves": [
+            "True Sight",
+            "Core Snipe"
+        ],
+        "description": "A forest-dwelling Digimon that is particularly skilled at hunting. Ghilliedhumon is an incredibly adept hunter, and its camouflage-covered body allows it to blend in with the forest and strike without giving its position away to its prey. Though Ghilliedhumon has a peaceful disposition, it is very territorial over its hunting grounds, and those who carelessly wander into its domain will be sniped without warning. Ghilliedhumon prefers slow movements to avoid leaving any signs or making any sound. As such, it struggles to move swiftly. Ghilliedhumon's eyes have special abilities, and its True Sight skill allows it to see even inside Digimon prey, and accurately locate their Digicores. Ghilliedhumon then uses its trusty rifle, \"Bellota,\" to perform its Core Snipe move and finish off its targets.",
+        "img": "https://digimon.net/cimages/digimon/ghilliedhumon.jpg"
+    },
+    {
         "name": "Fumamon",
         "level": "Ultimate",
         "type": "Android",
