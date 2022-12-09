@@ -1,5 +1,4 @@
 import { Fragment, useEffect, useState } from 'react';
-import Table from 'react-bootstrap/Table';
 import { ReactSearchAutocomplete } from 'react-search-autocomplete'
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
@@ -34,6 +33,11 @@ function HomePage() {
     try {
       const res = await fetch('/api/digimon');
       const digimonData = await res.json();
+      //
+      digimonData.results.forEach((element, index) => {
+        digimonData.results[index].id = index + 1
+      });
+      //
       setAutocompleteData(digimonData.results)
     } catch (err) {
       console.log(err);
@@ -112,14 +116,13 @@ function HomePage() {
     )
   }
 
-  const removeFromList = (id, level) => {
+  const removeFromList = (name, level) => {
     let index = 0
     let currentValues = {...currentRosterList}
-    let compositeId = id + level
 
     {currentValues[level].map((item, key) => 
-      {const newId = item.id + item.level
-        if(newId == compositeId){
+      {
+        if(item.name == name){
         index = key
         currentValues[level].splice(index,1)
       }}
@@ -198,19 +201,20 @@ function HomePage() {
         {return (
           <Fragment key={levelKey+'-a'}>
             <div className={"table-column"}>
-              <div className={"column-name"}><span>{level}</span></div>
+              <div className={"column-name column-name-" + level.toLowerCase().replace(' ','_')}><span>{level}</span></div>
               {currentRosterList[level].map((item, key) => 
                   {return (
                     <div className={'table-cell'} key={key+'-b'}>
-                      <div className='line-container'>
+                      {levelKey != 0 && (
+                      <div style={lineData[levelKey-1]} className={'line-container line-container-' + (levelKey - 1)}>
                         <div className='line-container-top' />
                         <div className='line-container-bottom' />
-                      </div>
+                      </div>)}
                       <div className='image-container'>
                         <img src={item.img} />
                         <div className='close-btn' onClick={() => removeFromList(item.name, level)}>X</div>
                       </div>
-                      <div className='line-container'>
+                      <div style={lineData[levelKey]} className={'line-container line-container-' + levelKey}>
                         <div className='line-container-top' />
                         <div className='line-container-bottom' />
                       </div>
@@ -218,7 +222,7 @@ function HomePage() {
                   )}
                 )}
             </div>
-            {level != 'Mega' && (<div style={lineData[levelKey]} className={"line-table-column line-table-column-" + levelKey} />)}
+            {levelKey != 5 && (<div style={lineData[levelKey]} className={"line-table-column line-table-column-" + levelKey} />)}
           </Fragment>
         )}
       )}
