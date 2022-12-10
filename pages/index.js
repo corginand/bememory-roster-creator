@@ -31,11 +31,11 @@ function HomePage() {
     try {
       const res = await fetch('/api/digimon');
       const digimonData = await res.json();
-      //
+
       digimonData.results.forEach((element, index) => {
         digimonData.results[index].id = index + 1
       });
-      //
+
       setAutocompleteData(digimonData.results)
     } catch (err) {
       console.log(err);
@@ -45,6 +45,27 @@ function HomePage() {
   const handleOnSelect = (item) => {
     if(currentCount < 23) {
       setCurrentDigimon(item)
+      switch(item.level){
+        case 'In-Training I':
+          document.getElementById("inline-radio-0").checked = true;
+          break;
+        case 'In-Training II':
+          document.getElementById("inline-radio-1").checked = true;
+          break;
+        case 'Rookie':
+          document.getElementById("inline-radio-2").checked = true;
+          break;
+        case 'Champion':
+          document.getElementById("inline-radio-3").checked = true;
+          break;
+        case 'Ultimate':
+          document.getElementById("inline-radio-4").checked = true;
+          break;
+        case 'Mega':
+          document.getElementById("inline-radio-5").checked = true;
+          break;
+      }
+      //document.getElementById("_1234").checked = true;
       setFormDisabled(false)
     }
   }
