@@ -96,21 +96,20 @@ function HomePage() {
     levelTypes.forEach((data, index) => {
       if(index < 5) {
         if(mainRosterList['main'][data].length == 0 || mainRosterList['main'][levelTypes[index+1]].length == 0){
-          newLineData['main'].push({['--display' + index] : 'none', ['--value' + index] : 0})
+          newLineData['main'].push({['--display' + index] : 0, ['--value' + index] : 0})
         } else {
           minValue = Math.min(mainRosterList['main'][data].length, mainRosterList['main'][levelTypes[index+1]].length)
-          newLineData['main'].push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
+          newLineData['main'].push({['--display' + index] : 1, ['--value' + index] : (minValue*60 + 23)+'px'})
         }
-        
+
         if(mainRosterList['adventure'][data].length == 0 || mainRosterList['adventure'][levelTypes[index+1]].length == 0){
-          newLineData['adventure'].push({['--display' + index] : 'none', ['--value' + index] : 0})
+          newLineData['adventure'].push({['--display' + index] : 0, ['--value' + index] : 0})
         } else {
           minValue = Math.min(mainRosterList['adventure'][data].length, mainRosterList['adventure'][levelTypes[index+1]].length)
-          newLineData['adventure'].push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
+          newLineData['adventure'].push({['--display' + index] : 1, ['--value' + index] : (minValue*60 + 23)+'px'})
         }
       }
     })
-
     setLineData(newLineData)
   }
 

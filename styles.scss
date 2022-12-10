@@ -41,7 +41,6 @@ table {
 
   .table-column {
     display: table-cell;
-    //padding: 0 calc($base-width-new/2);
     padding: 12px 0 25px;
 
     &:first-child .line-container:first-child{
@@ -51,13 +50,16 @@ table {
     &:last-child .line-container:last-child{
       display: none;
     }
+
+    &:not(:first-child) {
+      min-width: 190px;
+    }
   }
 
   .table-column .table-cell {
     display: flex;
     height: $base-width-new;
     padding: 0 !important;
-    //margin-bottom: 16px;
 
     img {
       max-height: 100%;
@@ -90,6 +92,10 @@ table {
     width: $base-width-new;
     line-height: 0;
     margin-bottom: 12px;
+
+    &.column-name-in-training_i + .table-cell {
+      min-width: 150px;
+    }
   }
 
   .line-container {
@@ -202,46 +208,46 @@ table {
 }
 
 .line-table-column-0:before{
-  display: var(--display0);
+  opacity: var(--display0);
   top: var(--value0);
 }
 
 .line-table-column-1:before{
-  display: var(--display1);
+  opacity: var(--display1);
   top: var(--value1);
 }
 
 .line-table-column-2:before{
-  display: var(--display2);
+  opacity: var(--display2);
   top: var(--value2);
 }
 
 .line-table-column-3:before{
-  display: var(--display3);
+  opacity: var(--display3);
   top: var(--value3);
 }
 
 .line-table-column-4:before{
-  display: var(--display4);
+  opacity: var(--display4);
   top: var(--value4);
 }
 
 .line-container-0 {
-  display: var(--display0);
+  opacity: var(--display0);
 }
 
 .line-container-1 {
-  display: var(--display1);
+  opacity: var(--display1);
 }
 
 .line-container-2 {
-  display: var(--display2);
+  opacity: var(--display2);
 }
 
 .line-container-3 {
-  display: var(--display3);
+  opacity: var(--display3);
 }
 
 .line-container-4 {
-  display: var(--display4);
+  opacity: var(--display4);
 }
