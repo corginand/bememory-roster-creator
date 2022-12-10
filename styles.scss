@@ -34,7 +34,7 @@ table {
   }
 }
 
-.main-table {
+.main-table, .adventure-table {
   border-collapse: collapse;
   width: fit-content !important;
   margin: 0px auto;
@@ -122,6 +122,11 @@ table {
   }
 }
 
+.adventure-table{
+  background-color: #5DD780;
+  padding: 16px 24px;
+}
+
 .search-autocomplete-bar {
   width: 50%;
 }
@@ -169,16 +174,6 @@ table {
   z-index: 1 !important;
 }
 
-.nametag {
-  background-color: green;
-
-  p {
-    margin: 0;
-    font-size: 0.9vw;
-    line-height: 1vw;
-  }
-}
-
 .autocomplete-container {
   margin: 8px auto 16px;
   width: 50%;
@@ -194,19 +189,17 @@ table {
   }
 }
 
-//
 .line-table-column { 
   position: relative;
 }
 
-  .line-table-column:before { 
-    content: '';
-    width: calc($base-width-new / 3);
+.line-table-column:before {
+  content: '';
+  width: calc($base-width-new / 3);
   position: absolute;
   border-bottom: 2px solid;
   z-index:0;
-  }
-//
+}
 
 .line-table-column-0:before{
   display: var(--display0);

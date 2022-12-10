@@ -29,11 +29,20 @@ function HomePage() {
   })
 
   let [lineData, setLineData] = useState({
+    main: {
     'value0': 0,
     'value1': 0,
     'value2': 0,
     'value3': 0,
     'value4': 0
+    },
+    adventure: {
+      'value0': 0,
+      'value1': 0,
+      'value2': 0,
+      'value3': 0,
+      'value4': 0
+    },
   })
   const levelTypes = Object.keys(mainRosterList['main']);
   const [currentCount, setCurrentCount] = useState(0);
@@ -81,16 +90,23 @@ function HomePage() {
   }
 
   const handleLines = () => {
-    let newLineData = []
+    let newLineData = {main:[], adventure:[]}
     let minValue = 0
 
     levelTypes.forEach((data, index) => {
-      if(index < 5){
+      if(index < 5) {
         if(mainRosterList['main'][data].length == 0 || mainRosterList['main'][levelTypes[index+1]].length == 0){
-          newLineData.push({['--display' + index] : 'none', ['--value' + index] : 0})
+          newLineData['main'].push({['--display' + index] : 'none', ['--value' + index] : 0})
         } else {
           minValue = Math.min(mainRosterList['main'][data].length, mainRosterList['main'][levelTypes[index+1]].length)
-          newLineData.push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
+          newLineData['main'].push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
+        }
+        
+        if(mainRosterList['adventure'][data].length == 0 || mainRosterList['adventure'][levelTypes[index+1]].length == 0){
+          newLineData['adventure'].push({['--display' + index] : 'none', ['--value' + index] : 0})
+        } else {
+          minValue = Math.min(mainRosterList['adventure'][data].length, mainRosterList['adventure'][levelTypes[index+1]].length)
+          newLineData['adventure'].push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
         }
       }
     })
@@ -106,10 +122,14 @@ function HomePage() {
     event.preventDefault()
     let currentValues = {...mainRosterList}
     const level = event.target.group1.value
-    currentValues['main'][level].push(currentDigimon)
+
+    if(event.target.adventure.checked){
+      currentValues['adventure'][level].push(currentDigimon)
+    } else {
+      currentValues['main'][level].push(currentDigimon)
+    }
 
     setMainRosterList(currentValues)
-
     setFormDisabled(true)
   }
 
@@ -121,43 +141,43 @@ function HomePage() {
     )
   }
 
-  const removeFromList = (name, level) => {
+  const removeFromList = (name, level, section = 'main') => {
     let index = 0
     let currentValues = {...mainRosterList}
 
-    {currentValues['main'][level].map((item, key) => 
+    {currentValues[section][level].map((item, key) => 
       {
         if(item.name == name){
         index = key
-        currentValues['main'][level].splice(index,1)
+        currentValues[section][level].splice(index,1)
       }}
     )}
     setMainRosterList(currentValues)
   }
 
-  const removeFromListOld = (id, level) => {
+  const removeFromListOld = (id, level, section = 'main') => {
     let index = 0
     let currentValues = {...mainRosterList}
 
-    {currentValues['main'][level].map((item, key) => 
+    {currentValues[section][level].map((item, key) => 
       {if(item.id == id){
         index = key
-        currentValues['main'][level].splice(index,1)
+        currentValues[section][level].splice(index,1)
       }}
     )}
     setMainRosterList(currentValues)
   }
 
-  const moveListElement = (index, level, direction) => {
+  const moveListElement = (index, level, direction, section = 'main') => {
     let currentValues = {...mainRosterList}
-    const movingElement = currentValues['main'][level][index]
+    const movingElement = currentValues[section][level][index]
 
     if (direction == 'up' && index > 0) {
-      currentValues['main'][level][index] = mainRosterList['main'][level][index-1]
-      currentValues['main'][level][index-1] = movingElement
-    } else if(direction == 'down' && index < mainRosterList['main'][level].length - 1) {
-      currentValues['main'][level][index] = mainRosterList['main'][level][index+1]
-      currentValues['main'][level][index+1] = movingElement
+      currentValues[section][level][index] = mainRosterList[section][level][index-1]
+      currentValues[section][level][index-1] = movingElement
+    } else if(direction == 'down' && index < mainRosterList[section][level].length - 1) {
+      currentValues[section][level][index] = mainRosterList[section][level][index+1]
+      currentValues[section][level][index+1] = movingElement
     }
     setMainRosterList(currentValues)
   }
@@ -234,17 +254,17 @@ function HomePage() {
                   {return (
                     <div className={'table-cell'} key={key+'-b'}>
                       {levelKey != 0 && (
-                      <div style={lineData[levelKey-1]} className={'line-container line-container-' + (levelKey - 1)}>
+                      <div style={lineData['main'][levelKey-1]} className={'line-container line-container-' + (levelKey - 1)}>
                         <div className='line-container-top' />
                         <div className='line-container-bottom' />
                       </div>)}
                       <div className='image-container'>
                         <img src={item.img} />
-                        <div className='close-btn' onClick={() => removeFromList(item.name, level)}>X</div>
-                        {key > 0 && <div className='top-arrow-btn' onClick={() => moveListElement(key, level, 'up')}>{'<'}</div>}
-                        {key < mainRosterList['main'][level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down')}>{'>'}</div>}
+                        <div className='close-btn' onClick={() => removeFromList(item.name, level, 'main')}>X</div>
+                        {key > 0 && <div className='top-arrow-btn' onClick={() => moveListElement(key, level, 'up', 'main')}>{'<'}</div>}
+                        {key < mainRosterList['main'][level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down', 'main')}>{'>'}</div>}
                       </div>
-                      <div style={lineData[levelKey]} className={'line-container line-container-' + levelKey}>
+                      <div style={lineData['main'][levelKey]} className={'line-container line-container-' + levelKey}>
                         <div className='line-container-top' />
                         <div className='line-container-bottom' />
                       </div>
@@ -252,7 +272,41 @@ function HomePage() {
                   )}
                 )}
             </div>
-            {levelKey != 5 && (<div style={lineData[levelKey]} className={"line-table-column line-table-column-" + levelKey} />)}
+            {levelKey != 5 && (<div style={lineData.main[levelKey]} className={"line-table-column line-table-column-" + levelKey} />)}
+          </Fragment>
+        )}
+      )}
+    </div>
+
+    <div className={'adventure-table'}>
+      {levelTypes.map((level, levelKey) =>
+        {return (
+          <Fragment key={levelKey + '-c'}>
+            <div className={"table-column"}>
+              <div className={"column-name column-name-" + level.toLowerCase().replace(' ','_')}><span>{level}</span></div>
+              {mainRosterList['adventure'][level].map((item, key) => 
+                  {return (
+                    <div className={'table-cell'} key={key + '-d'}>
+                      {levelKey != 0 && (
+                      <div style={lineData['adventure'][levelKey-1]} className={'line-container line-container-' + (levelKey - 1)}>
+                        <div className='line-container-top' />
+                        <div className='line-container-bottom' />
+                      </div>)}
+                      <div className='image-container'>
+                        <img src={item.img} />
+                        <div className='close-btn' onClick={() => removeFromList(item.name, level, 'adventure')}>X</div>
+                        {key > 0 && <div className='top-arrow-btn' onClick={() => moveListElement(key, level, 'up', 'adventure')}>{'<'}</div>}
+                        {key < mainRosterList['adventure'][level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down', 'adventure')}>{'>'}</div>}
+                      </div>
+                      <div style={lineData['adventure'][levelKey]} className={'line-container line-container-' + levelKey}>
+                        <div className='line-container-top' />
+                        <div className='line-container-bottom' />
+                      </div>
+                    </div>
+                  )}
+                )}
+            </div>
+            {levelKey != 5 && (<div style={lineData.adventure[levelKey]} className={"line-table-column line-table-column-" + levelKey} />)}
           </Fragment>
         )}
       )}
