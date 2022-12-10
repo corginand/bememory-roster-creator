@@ -642,7 +642,7 @@ const digiData = [
     },
     {
         "name": "Puyoyomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -666,7 +666,7 @@ const digiData = [
     },
     {
         "name": "Puyomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -677,7 +677,7 @@ const digiData = [
     },
     {
         "name": "Bosamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -700,7 +700,7 @@ const digiData = [
     },
     {
         "name": "Curimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -711,7 +711,7 @@ const digiData = [
     },
     {
         "name": "Gurimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -735,7 +735,7 @@ const digiData = [
     },
     {
         "name": "Pyonmon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -770,7 +770,7 @@ const digiData = [
     },
     {
         "name": "Negamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Unknown",
         "attribute": "",
         "specialMoves": [
@@ -1048,7 +1048,7 @@ const digiData = [
     },
     {
         "name": "Tumblemon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Ore",
         "attribute": "",
         "specialMoves": [
@@ -1059,7 +1059,7 @@ const digiData = [
     },
     {
         "name": "Sandmon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -1279,7 +1279,7 @@ const digiData = [
     },
     {
         "name": "Hiyarimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -1500,7 +1500,7 @@ const digiData = [
     },
     {
         "name": "TorikaraBallmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Food",
         "attribute": "",
         "specialMoves": [
@@ -1639,7 +1639,7 @@ const digiData = [
     },
     {
         "name": "Bibimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -1663,7 +1663,7 @@ const digiData = [
     },
     {
         "name": "Dokimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -1881,7 +1881,7 @@ const digiData = [
     },
     {
         "name": "Hopmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Baby Dragon",
         "attribute": "",
         "specialMoves": [
@@ -1916,7 +1916,7 @@ const digiData = [
     },
     {
         "name": "Ketomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -2012,7 +2012,7 @@ const digiData = [
     },
     {
         "name": "Argomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Mutant",
         "attribute": "",
         "specialMoves": [
@@ -2266,7 +2266,7 @@ const digiData = [
     },
     {
         "name": "Argomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Mutant",
         "attribute": "",
         "specialMoves": [
@@ -3285,7 +3285,7 @@ const digiData = [
     },
     {
         "name": "Yaamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -3309,7 +3309,7 @@ const digiData = [
     },
     {
         "name": "Keemon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -3508,7 +3508,7 @@ const digiData = [
     },
     {
         "name": "Pusumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -3532,7 +3532,7 @@ const digiData = [
     },
     {
         "name": "Pusurimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -3832,7 +3832,7 @@ const digiData = [
     },
     {
         "name": "Tokomon (X Antibody)",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -4175,7 +4175,7 @@ const digiData = [
     },
     {
         "name": "Pipimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -4305,7 +4305,7 @@ const digiData = [
     },
     {
         "name": "Kakkinmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Armor",
         "attribute": "",
         "specialMoves": [
@@ -4340,7 +4340,7 @@ const digiData = [
     },
     {
         "name": "Cotsucomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Armor",
         "attribute": "",
         "specialMoves": [
@@ -4459,7 +4459,7 @@ const digiData = [
     },
     {
         "name": "Monimon",
-        "level": "In-Training Ⅱ<br>(Xros Wars)",
+        "level": "In-Training II<br>(Xros Wars)",
         "type": "CRT",
         "attribute": "",
         "specialMoves": [
@@ -4624,7 +4624,7 @@ const digiData = [
     },
     {
         "name": "Bommon (2010 Anime Version)",
-        "level": "In-Training Ⅰ<br>(Xros Wars)",
+        "level": "In-Training I<br>(Xros Wars)",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -4660,7 +4660,7 @@ const digiData = [
     },
     {
         "name": "Pickmon",
-        "level": "In-Training Ⅱ<br>(Xros Wars)",
+        "level": "In-Training II<br>(Xros Wars)",
         "type": "Minor",
         "attribute": "",
         "specialMoves": [
@@ -4866,7 +4866,7 @@ const digiData = [
     },
     {
         "name": "Chibickmon",
-        "level": "In-Training Ⅰ<br>(Xros Wars)",
+        "level": "In-Training I<br>(Xros Wars)",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -5331,7 +5331,7 @@ const digiData = [
     },
     {
         "name": "Kozenimon",
-        "level": "In-Training Ⅱ<br>(Xros Wars)",
+        "level": "In-Training II<br>(Xros Wars)",
         "type": "Mutant",
         "attribute": "",
         "specialMoves": [
@@ -13159,7 +13159,7 @@ const digiData = [
     },
     {
         "name": "Wanyamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13170,7 +13170,7 @@ const digiData = [
     },
     {
         "name": "Motimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13181,7 +13181,7 @@ const digiData = [
     },
     {
         "name": "Minomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Larva",
         "attribute": "",
         "specialMoves": [
@@ -13192,7 +13192,7 @@ const digiData = [
     },
     {
         "name": "Missimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Machine",
         "attribute": "",
         "specialMoves": [
@@ -13203,7 +13203,7 @@ const digiData = [
     },
     {
         "name": "Viximon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13214,7 +13214,7 @@ const digiData = [
     },
     {
         "name": "Poromon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Mini Bird",
         "attribute": "",
         "specialMoves": [
@@ -13225,7 +13225,7 @@ const digiData = [
     },
     {
         "name": "Bebydomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Baby Dragon",
         "attribute": "",
         "specialMoves": [
@@ -13236,7 +13236,7 @@ const digiData = [
     },
     {
         "name": "Frimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13247,7 +13247,7 @@ const digiData = [
     },
     {
         "name": "Puroromon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Mythical Insectoid",
         "attribute": "",
         "specialMoves": [
@@ -13258,7 +13258,7 @@ const digiData = [
     },
     {
         "name": "DemiMeramon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Fire",
         "attribute": "",
         "specialMoves": [
@@ -13269,7 +13269,7 @@ const digiData = [
     },
     {
         "name": "Bukamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13280,7 +13280,7 @@ const digiData = [
     },
     {
         "name": "Yokomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Bulb",
         "attribute": "",
         "specialMoves": [
@@ -13291,7 +13291,7 @@ const digiData = [
     },
     {
         "name": "Pinamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Baby Bird",
         "attribute": "",
         "specialMoves": [
@@ -13302,7 +13302,7 @@ const digiData = [
     },
     {
         "name": "Budmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Vegetation",
         "attribute": "",
         "specialMoves": [
@@ -13313,7 +13313,7 @@ const digiData = [
     },
     {
         "name": "Pagumon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13324,7 +13324,7 @@ const digiData = [
     },
     {
         "name": "Nyaromon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13335,7 +13335,7 @@ const digiData = [
     },
     {
         "name": "Dorimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13346,7 +13346,7 @@ const digiData = [
     },
     {
         "name": "Tokomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13357,7 +13357,7 @@ const digiData = [
     },
     {
         "name": "Tsumemon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Unidentified",
         "attribute": "",
         "specialMoves": [
@@ -13368,7 +13368,7 @@ const digiData = [
     },
     {
         "name": "Tsunomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13379,7 +13379,7 @@ const digiData = [
     },
     {
         "name": "Chapmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13390,7 +13390,7 @@ const digiData = [
     },
     {
         "name": "Kokomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13401,7 +13401,7 @@ const digiData = [
     },
     {
         "name": "Tanemon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Bulb",
         "attribute": "",
         "specialMoves": [
@@ -13412,7 +13412,7 @@ const digiData = [
     },
     {
         "name": "DemiVeemon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Baby Dragon",
         "attribute": "",
         "specialMoves": [
@@ -13423,7 +13423,7 @@ const digiData = [
     },
     {
         "name": "Sakuttomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Weapon",
         "attribute": "",
         "specialMoves": [
@@ -13434,7 +13434,7 @@ const digiData = [
     },
     {
         "name": "Xiaomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13445,7 +13445,7 @@ const digiData = [
     },
     {
         "name": "Koromon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13456,7 +13456,7 @@ const digiData = [
     },
     {
         "name": "Kyokyomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13467,7 +13467,7 @@ const digiData = [
     },
     {
         "name": "Cupimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Mini Angel",
         "attribute": "",
         "specialMoves": [
@@ -13478,7 +13478,7 @@ const digiData = [
     },
     {
         "name": "Gummymon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13489,7 +13489,7 @@ const digiData = [
     },
     {
         "name": "Gigimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13500,7 +13500,7 @@ const digiData = [
     },
     {
         "name": "Kyaromon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13511,7 +13511,7 @@ const digiData = [
     },
     {
         "name": "Kapurimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13522,7 +13522,7 @@ const digiData = [
     },
     {
         "name": "Upamon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Amphibian",
         "attribute": "",
         "specialMoves": [
@@ -13533,7 +13533,7 @@ const digiData = [
     },
     {
         "name": "Relemon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13544,7 +13544,7 @@ const digiData = [
     },
     {
         "name": "Leafmon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13555,7 +13555,7 @@ const digiData = [
     },
     {
         "name": "Yuramon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Seed",
         "attribute": "",
         "specialMoves": [
@@ -13566,7 +13566,7 @@ const digiData = [
     },
     {
         "name": "YukimiBotamon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13577,7 +13577,7 @@ const digiData = [
     },
     {
         "name": "Poyomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13588,7 +13588,7 @@ const digiData = [
     },
     {
         "name": "Mokumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13599,7 +13599,7 @@ const digiData = [
     },
     {
         "name": "Bommon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13610,7 +13610,7 @@ const digiData = [
     },
     {
         "name": "Botamon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13621,7 +13621,7 @@ const digiData = [
     },
     {
         "name": "Popomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13632,7 +13632,7 @@ const digiData = [
     },
     {
         "name": "Pururumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13643,7 +13643,7 @@ const digiData = [
     },
     {
         "name": "Puwamon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Baby Bird",
         "attribute": "",
         "specialMoves": [
@@ -13654,7 +13654,7 @@ const digiData = [
     },
     {
         "name": "Pupumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13665,7 +13665,7 @@ const digiData = [
     },
     {
         "name": "Fufumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13676,7 +13676,7 @@ const digiData = [
     },
     {
         "name": "Punimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13687,7 +13687,7 @@ const digiData = [
     },
     {
         "name": "Puttimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Mini Angel",
         "attribute": "",
         "specialMoves": [
@@ -13698,7 +13698,7 @@ const digiData = [
     },
     {
         "name": "Pafumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Spirit",
         "attribute": "",
         "specialMoves": [
@@ -13709,7 +13709,7 @@ const digiData = [
     },
     {
         "name": "Pichimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13720,7 +13720,7 @@ const digiData = [
     },
     {
         "name": "Petitmon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13731,7 +13731,7 @@ const digiData = [
     },
     {
         "name": "Paomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13742,7 +13742,7 @@ const digiData = [
     },
     {
         "name": "Pabumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13753,7 +13753,7 @@ const digiData = [
     },
     {
         "name": "Nyokimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Seed",
         "attribute": "",
         "specialMoves": [
@@ -13764,7 +13764,7 @@ const digiData = [
     },
     {
         "name": "Dodomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13775,7 +13775,7 @@ const digiData = [
     },
     {
         "name": "Tsubumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13786,7 +13786,7 @@ const digiData = [
     },
     {
         "name": "Choromon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Machine",
         "attribute": "",
         "specialMoves": [
@@ -13797,7 +13797,7 @@ const digiData = [
     },
     {
         "name": "Zerimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13808,7 +13808,7 @@ const digiData = [
     },
     {
         "name": "Jyarimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13819,7 +13819,7 @@ const digiData = [
     },
     {
         "name": "Zurumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13830,7 +13830,7 @@ const digiData = [
     },
     {
         "name": "Sakumon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Weapon",
         "attribute": "",
         "specialMoves": [
@@ -13841,7 +13841,7 @@ const digiData = [
     },
     {
         "name": "Conomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13878,7 +13878,7 @@ const digiData = [
     },
     {
         "name": "Chibomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -13889,7 +13889,7 @@ const digiData = [
     },
     {
         "name": "Hiyarimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -13900,7 +13900,7 @@ const digiData = [
     },
     {
         "name": "Kuramon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Unidentified",
         "attribute": "",
         "specialMoves": [
@@ -14108,7 +14108,7 @@ const digiData = [
     },
     {
         "name": "TorikaraBallmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Food",
         "attribute": "",
         "specialMoves": [
@@ -14273,7 +14273,7 @@ const digiData = [
     },
     {
         "name": "Dokimon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -14284,7 +14284,7 @@ const digiData = [
     },
     {
         "name": "Bibimon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Lesser",
         "attribute": "",
         "specialMoves": [
@@ -14539,7 +14539,7 @@ const digiData = [
     },
     {
         "name": "Hopmon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Baby Dragon",
         "attribute": "",
         "specialMoves": [
@@ -14562,7 +14562,7 @@ const digiData = [
     },
     {
         "name": "Ketomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Slime",
         "attribute": "",
         "specialMoves": [
@@ -14645,7 +14645,7 @@ const digiData = [
     },
     {
         "name": "Argomon",
-        "level": "In-Training Ⅰ",
+        "level": "In-Training I",
         "type": "Mutant",
         "attribute": "",
         "specialMoves": [
@@ -14874,7 +14874,7 @@ const digiData = [
     },
     {
         "name": "Argomon",
-        "level": "In-Training Ⅱ",
+        "level": "In-Training II",
         "type": "Mutant",
         "attribute": "",
         "specialMoves": [
