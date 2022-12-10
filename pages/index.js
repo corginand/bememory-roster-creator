@@ -7,7 +7,7 @@ import { Accordion } from 'react-bootstrap';
 
 function HomePage() {
   let [autocompleteData, setAutocompleteData] = useState([])
-  const [show, setShow] = useState(false);
+  const [formDisabled, setFormDisabled] = useState(true);
   const [currentDigimon, setCurrentDigimon] = useState({name: ''});
   let [currentRosterList, setCurrentRosterList] = useState({
     'In-Training I': [],
@@ -27,8 +27,6 @@ function HomePage() {
   const levelTypes = Object.keys(currentRosterList);
   const [currentCount, setCurrentCount] = useState(0);
 
-  const handleClose = () => setShow(false);
-
   async function getDigimonData() {
     try {
       const res = await fetch('/api/digimon');
@@ -47,7 +45,7 @@ function HomePage() {
   const handleOnSelect = (item) => {
     if(currentCount < 23) {
       setCurrentDigimon(item)
-      setShow(true)
+      setFormDisabled(false)
     }
   }
 
@@ -81,7 +79,7 @@ function HomePage() {
 
     setCurrentRosterList(currentValues)
 
-    handleClose()
+    setFormDisabled(true)
   }
 
   const formatResult = (item) => {
@@ -141,35 +139,6 @@ function HomePage() {
 
   return ( 
     <>
-    <Modal show={show} onHide={handleClose}>
-      <Modal.Header closeButton>
-        <Modal.Title> Pick a column for <b>{currentDigimon.name}</b></Modal.Title>
-      </Modal.Header>
-      <Form noValidate onSubmit={addToColumn}>
-        <Modal.Body>
-          <div key={`inline-radio`} className="mb-3">
-            {levelTypes.map((level, levelKey) =>
-              {return (
-                <Form.Check
-                  inline
-                  label={level}
-                  value={level}
-                  name="group1"
-                  type={'radio'}
-                  id={'inline-radio-'+ levelKey}
-                  key={levelKey}/>
-              )}
-            )}
-          </div>
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="primary" type="submit">
-            Save
-          </Button>
-        </Modal.Footer>
-      </Form>
-    </Modal>
-
     <div className={'autocomplete-container'}>
       <Accordion>
         <Accordion.Item eventKey="0">
@@ -181,6 +150,29 @@ function HomePage() {
               maxResults={7}
               formatResult={formatResult}
             />
+            <Form noValidate onSubmit={addToColumn}>
+              <Modal.Body>
+                <div key={`inline-radio`} className="mb-3">
+                  {levelTypes.map((level, levelKey) =>
+                    {return (
+                      <Form.Check
+                        inline
+                        label={level}
+                        value={level}
+                        name="group1"
+                        type={'radio'}
+                        id={'inline-radio-'+ levelKey}
+                        key={levelKey}/>
+                    )}
+                  )}
+                </div>
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="primary" type="submit" disabled={formDisabled}>
+                  Save
+                </Button>
+              </Modal.Footer>
+            </Form>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
