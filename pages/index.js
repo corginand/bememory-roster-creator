@@ -119,6 +119,20 @@ function HomePage() {
     setCurrentRosterList(currentValues)
   }
 
+  const moveListElement = (index, level, direction) => {
+    let currentValues = {...currentRosterList}
+    const movingElement = currentValues[level][index]
+
+    if (direction == 'up' && index > 0) {
+      currentValues[level][index] = currentRosterList[level][index-1]
+      currentValues[level][index-1] = movingElement
+    } else if(direction == 'down' && index < currentRosterList[level].length - 1) {
+      currentValues[level][index] = currentRosterList[level][index+1]
+      currentValues[level][index+1] = movingElement
+    }
+    setCurrentRosterList(currentValues)
+  }
+
   useEffect(() => {
     const totalValue = currentRosterList['In-Training I'].length + currentRosterList['In-Training II'].length + currentRosterList['Rookie'].length + currentRosterList['Champion'].length + currentRosterList['Ultimate'].length + currentRosterList['Mega'].length
     setCurrentCount(totalValue)
@@ -189,6 +203,8 @@ function HomePage() {
                       <div className='image-container'>
                         <img src={item.img} />
                         <div className='close-btn' onClick={() => removeFromList(item.name, level)}>X</div>
+                        {key > 0 && <div className='top-arrow-btn' onClick={() => moveListElement(key, level, 'up')}>{'<'}</div>}
+                        {key < currentRosterList[level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down')}>{'>'}</div>}
                       </div>
                       <div style={lineData[levelKey]} className={'line-container line-container-' + levelKey}>
                         <div className='line-container-top' />

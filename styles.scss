@@ -87,16 +87,9 @@ table {
   }
 
   .column-name {
-    //border-bottom: 2px solid !important;
     width: $base-width-new;
     line-height: 0;
     margin-bottom: 12px;
-  }
-
-  .image-container{
-    .close-btn{
-      top: 0;
-    }
   }
 
   .line-container {
@@ -136,16 +129,39 @@ table {
 .image-container {
   position: relative;
 
-  .close-btn{
-    position: absolute;
-    font-size: 20px;
-    top: 1vw;
+  .close-btn {
+    top: 0;
     right: 4px;
+    font-size: 20px;
+  }
+
+  .top-arrow-btn {
+    top: 0;
+    left: 4px;
+    transform: rotate(90deg);
+    font-size: 24px;
+  }
+
+  .bottom-arrow-btn {
+    top: 24px;
+    left: 4px;
+    transform: rotate(90deg);
+    font-size: 24px;
+  }
+
+  .close-btn, .top-arrow-btn, .bottom-arrow-btn{
+    position: absolute;
     display: none;
   }
 
-  &:hover .close-btn {
-    display: block;
+  &:hover {
+    .close-btn, .top-arrow-btn, .bottom-arrow-btn{
+      display: block;
+    }
+
+    img{
+      opacity: 0.3;
+    }
   }
 }
 
