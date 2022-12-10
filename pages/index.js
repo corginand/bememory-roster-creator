@@ -9,14 +9,25 @@ function HomePage() {
   let [autocompleteData, setAutocompleteData] = useState([])
   const [formDisabled, setFormDisabled] = useState(true);
   const [currentDigimon, setCurrentDigimon] = useState({name: ''});
-  let [currentRosterList, setCurrentRosterList] = useState({
-    'In-Training I': [],
-    'In-Training II': [],
-    'Rookie': [],
-    'Champion': [],
-    'Ultimate': [],
-    'Mega': [],
+  let [mainRosterList, setMainRosterList] = useState({
+    'main': {
+      'In-Training I': [],
+      'In-Training II': [],
+      'Rookie': [],
+      'Champion': [],
+      'Ultimate': [],
+      'Mega': []
+    },
+    'adventure': {
+      'In-Training I': [],
+      'In-Training II': [],
+      'Rookie': [],
+      'Champion': [],
+      'Ultimate': [],
+      'Mega': [],
+    }
   })
+
   let [lineData, setLineData] = useState({
     'value0': 0,
     'value1': 0,
@@ -24,7 +35,7 @@ function HomePage() {
     'value3': 0,
     'value4': 0
   })
-  const levelTypes = Object.keys(currentRosterList);
+  const levelTypes = Object.keys(mainRosterList['main']);
   const [currentCount, setCurrentCount] = useState(0);
 
   async function getDigimonData() {
@@ -65,7 +76,6 @@ function HomePage() {
           document.getElementById("inline-radio-5").checked = true;
           break;
       }
-      //document.getElementById("_1234").checked = true;
       setFormDisabled(false)
     }
   }
@@ -76,10 +86,10 @@ function HomePage() {
 
     levelTypes.forEach((data, index) => {
       if(index < 5){
-        if(currentRosterList[data].length == 0 || currentRosterList[levelTypes[index+1]].length == 0){
+        if(mainRosterList['main'][data].length == 0 || mainRosterList['main'][levelTypes[index+1]].length == 0){
           newLineData.push({['--display' + index] : 'none', ['--value' + index] : 0})
         } else {
-          minValue = Math.min(currentRosterList[data].length, currentRosterList[levelTypes[index+1]].length)
+          minValue = Math.min(mainRosterList['main'][data].length, mainRosterList['main'][levelTypes[index+1]].length)
           newLineData.push({['--display' + index] : 'block', ['--value' + index] : (minValue*60 + 23)+'px'})
         }
       }
@@ -94,11 +104,11 @@ function HomePage() {
 
   const addToColumn = (event) => {
     event.preventDefault()
-    let currentValues = {...currentRosterList}
+    let currentValues = {...mainRosterList}
     const level = event.target.group1.value
-    currentValues[level].push(currentDigimon)
+    currentValues['main'][level].push(currentDigimon)
 
-    setCurrentRosterList(currentValues)
+    setMainRosterList(currentValues)
 
     setFormDisabled(true)
   }
@@ -113,50 +123,56 @@ function HomePage() {
 
   const removeFromList = (name, level) => {
     let index = 0
-    let currentValues = {...currentRosterList}
+    let currentValues = {...mainRosterList}
 
-    {currentValues[level].map((item, key) => 
+    {currentValues['main'][level].map((item, key) => 
       {
         if(item.name == name){
         index = key
-        currentValues[level].splice(index,1)
+        currentValues['main'][level].splice(index,1)
       }}
     )}
-    setCurrentRosterList(currentValues)
+    setMainRosterList(currentValues)
   }
 
   const removeFromListOld = (id, level) => {
     let index = 0
-    let currentValues = {...currentRosterList}
+    let currentValues = {...mainRosterList}
 
-    {currentValues[level].map((item, key) => 
+    {currentValues['main'][level].map((item, key) => 
       {if(item.id == id){
         index = key
-        currentValues[level].splice(index,1)
+        currentValues['main'][level].splice(index,1)
       }}
     )}
-    setCurrentRosterList(currentValues)
+    setMainRosterList(currentValues)
   }
 
   const moveListElement = (index, level, direction) => {
-    let currentValues = {...currentRosterList}
-    const movingElement = currentValues[level][index]
+    let currentValues = {...mainRosterList}
+    const movingElement = currentValues['main'][level][index]
 
     if (direction == 'up' && index > 0) {
-      currentValues[level][index] = currentRosterList[level][index-1]
-      currentValues[level][index-1] = movingElement
-    } else if(direction == 'down' && index < currentRosterList[level].length - 1) {
-      currentValues[level][index] = currentRosterList[level][index+1]
-      currentValues[level][index+1] = movingElement
+      currentValues['main'][level][index] = mainRosterList['main'][level][index-1]
+      currentValues['main'][level][index-1] = movingElement
+    } else if(direction == 'down' && index < mainRosterList['main'][level].length - 1) {
+      currentValues['main'][level][index] = mainRosterList['main'][level][index+1]
+      currentValues['main'][level][index+1] = movingElement
     }
-    setCurrentRosterList(currentValues)
+    setMainRosterList(currentValues)
   }
 
   useEffect(() => {
-    const totalValue = currentRosterList['In-Training I'].length + currentRosterList['In-Training II'].length + currentRosterList['Rookie'].length + currentRosterList['Champion'].length + currentRosterList['Ultimate'].length + currentRosterList['Mega'].length
+    const totalValue = 
+    mainRosterList['main']['In-Training I'].length + mainRosterList['adventure']['In-Training I'].length
+    + mainRosterList['main']['In-Training II'].length + mainRosterList['adventure']['In-Training II'].length
+    + mainRosterList['main']['Rookie'].length + mainRosterList['adventure']['Rookie'].length
+    + mainRosterList['main']['Champion'].length + mainRosterList['adventure']['Champion'].length
+    + mainRosterList['main']['Ultimate'].length + mainRosterList['adventure']['Ultimate'].length
+    + mainRosterList['main']['Mega'].length + mainRosterList['adventure']['Mega'].length
     setCurrentCount(totalValue)
     handleLines()
-  }, [currentRosterList]);
+  }, [mainRosterList]);
 
   return ( 
     <>
@@ -187,6 +203,15 @@ function HomePage() {
                     )}
                   )}
                 </div>
+                <div key={`inline-checkbox`} className="mb-3">
+                  <Form.Check
+                    inline
+                      label={'Locked to Adventure'}
+                      value={true}
+                      name="adventure"
+                      type={'checkbox'}
+                      id={'inline-check-adv'} />
+                </div>
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="primary" type="submit" disabled={formDisabled}>
@@ -205,7 +230,7 @@ function HomePage() {
           <Fragment key={levelKey+'-a'}>
             <div className={"table-column"}>
               <div className={"column-name column-name-" + level.toLowerCase().replace(' ','_')}><span>{level}</span></div>
-              {currentRosterList[level].map((item, key) => 
+              {mainRosterList['main'][level].map((item, key) => 
                   {return (
                     <div className={'table-cell'} key={key+'-b'}>
                       {levelKey != 0 && (
@@ -217,7 +242,7 @@ function HomePage() {
                         <img src={item.img} />
                         <div className='close-btn' onClick={() => removeFromList(item.name, level)}>X</div>
                         {key > 0 && <div className='top-arrow-btn' onClick={() => moveListElement(key, level, 'up')}>{'<'}</div>}
-                        {key < currentRosterList[level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down')}>{'>'}</div>}
+                        {key < mainRosterList['main'][level].length - 1 && <div className='bottom-arrow-btn' onClick={() => moveListElement(key, level, 'down')}>{'>'}</div>}
                       </div>
                       <div style={lineData[levelKey]} className={'line-container line-container-' + levelKey}>
                         <div className='line-container-top' />
