@@ -76,6 +76,7 @@ function HomePage() {
           document.getElementById("inline-radio-2").checked = true;
           break;
         case 'Champion':
+        case 'Armor':
           document.getElementById("inline-radio-3").checked = true;
           break;
         case 'Ultimate':
