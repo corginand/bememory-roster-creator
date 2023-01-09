@@ -1,3 +1,3 @@
 # TODO
 - Overall code cleaning
-- Add separate category for Adventure unlocks
+- Styling changes for Adventure unlocks

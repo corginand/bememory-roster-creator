@@ -1,5 +1,45 @@
 const digiData = [
     {
+        "name": "Diarbbitmon",
+        "level": "Mega",
+        "type": "Beast Knight",
+        "attribute": "Vaccine",
+        "specialMoves": [
+            "Truskmore Advance",
+            "Twin Spear Pursuit",
+            "Buck Rush"
+        ],
+        "description": "An astute Beast Knight Digimon that guards over many of the Beast Digimon inhabiting areas of lush nature. Diarbbitmon's gentle nature leads it to enjoy its time quietly communing with other Digimon. Diarbbitmon defends the lands from any threat, swiftly dispatching enemies that appear with its beloved pair of blades, Moralltach and Beagalltach. Any who dare damage the land must be prepared for the typically well-mannered Diarbbitmon to cut them to shreds until nothing is left. It will also pursue its opponent's allies to destroy them.<br>Diarbbitmon uses its superlative swordsmanship to cut its foes down with Truskmore Advance, and can summon twin magical spears to pursue foes with Twin Spear Pursuit. It can also surround its enemy with afterimages that slice their target from all directions with Buck Rush, leaving their enemy with no path of retreat.",
+        "img": "https://digimon.net/cimages/digimon/diarbbitmon.jpg"
+    },
+    {
+        "name": "Siriusmon",
+        "level": "Mega",
+        "type": "Shining Dragon",
+        "attribute": "Vaccine",
+        "specialMoves": [
+            "Photon Blaster",
+            "Cosmic Sword",
+            "Quasar Break",
+            "Planet Punch"
+        ],
+        "description": "A Mega Dragon Man Digimon belonging to the righteous order called the Virus Busters. Wielding the Sylvia, twin cannons equipped on its arms, Siriusmon crashes in like a shooting star to defeat its enemies after hearing a voice calling for help from far, far, away or sensing evil. However, Siriusmon's kind heart is such that it is willing to put its weapons down and open its heart to an opponent in the middle of battle if it senses the possibility of reforming them.　<br>Its special moves are Photon Blaster, in which it uses the Sylvia to shoot rays of light, and Cosmic Sword, where it will slice its enemies in half with its sword of order. In the wake of Photon Blaster, Siriusmon can use Quasar Break to follow up with a blade of starlight to pursue enemies, fusing light and blade to make its enemy violently explode. The bright white light created by this attack resembles a shooting star from a distance. Even if the Sylvia are destroyed, Siriusmon can still attack with its trump card, Planet Punch, in which it lands a punch powered with life force energy.",
+        "img": "https://digimon.net/cimages/digimon/siriusmon.jpg"
+    },
+    {
+        "name": "ShineGreymon:Ruin Mode",
+        "level": "Mega",
+        "type": "Shining Dragon",
+        "attribute": "Vaccine",
+        "specialMoves": [
+            "Corona Blaze Sword",
+            "Final Shining Burst",
+            "Torrid Weiss"
+        ],
+        "description": "Allies defeated and pride wounded, ShineGreymon unlocks a new power while mired in resentment. In its boundless hunger for more power, its positive energy from the sun is converted into a negative, dark energy. The power of all ShineGreymon's special moves are immensely amplified by this dark energy. However, if ShineGreymon surpasses its limits and draws out too much dark energy, it risks turning back into a DigiEgg.",
+        "img": "https://digimon.net/cimages/digimon/shinegreymon_ruin.jpg"
+    },
+    {
         "name": "GreyKnightsmon",
         "level": "Mega",
         "type": "Dark Knight",
