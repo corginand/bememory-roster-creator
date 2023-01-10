@@ -10,7 +10,7 @@ const digiData = [
             "Buck Rush"
         ],
         "description": "An astute Beast Knight Digimon that guards over many of the Beast Digimon inhabiting areas of lush nature. Diarbbitmon's gentle nature leads it to enjoy its time quietly communing with other Digimon. Diarbbitmon defends the lands from any threat, swiftly dispatching enemies that appear with its beloved pair of blades, Moralltach and Beagalltach. Any who dare damage the land must be prepared for the typically well-mannered Diarbbitmon to cut them to shreds until nothing is left. It will also pursue its opponent's allies to destroy them.<br>Diarbbitmon uses its superlative swordsmanship to cut its foes down with Truskmore Advance, and can summon twin magical spears to pursue foes with Twin Spear Pursuit. It can also surround its enemy with afterimages that slice their target from all directions with Buck Rush, leaving their enemy with no path of retreat.",
-        "img": "https://digimon.net/cimages/digimon/diarbbitmon.jpg"
+        "img": "images/diarbbitmon.jpg"
     },
     {
         "name": "Siriusmon",
@@ -126,7 +126,8 @@ const digiData = [
             "Absorption Mark"
         ],
         "description": "A Digimon possessing extensive knowledge of all subjects who is also known as the Sublime Lord. According to one theory, Baalmon is rumored to be the alternative form of a certain Evil King Digimon. Baalmon is said to be willing to exchange one page of information from its Red Book of Appin in which all of its knowledge has been recorded, in exchange for the reader’s soul. Baalmon can answer any question, but it always puts its petitioners through a trial first. Those who fail to overcome this trial will receive no answer, and Baalmon steals their soul. Baalmon’s cape consists of various talismans gathered from all times and places. These are said to contain countermeasures for every known technique, and this vast wealth of knowledge allows it to block any attack. Its special moves include Guiltish, which transforms its talismans into various forms to attack, and Kamiuchi, by which it releases a powerful bolt of lightning from the Dǎshénbiān in its hand. Kamiuchi is especially powerful against Holy Digimon.<br>\n<br>\nEffects of the X-Antibody on Baalmon's DigiCore<br>\nThe X-Antibody releases some of the power sealed inside Baalmon by its amulets. The Red Book of Appin reveals its will. Should one seeking knowledge give a wrong answer to the question, they will receive judgment from its owner.<br>\nIts special moves are Tribunal Blast, in which unleashes a shot from the shotgun on its right arm, and Zai-Kamiuchi, in which its whip, Deus Fractus, merges with its left arm to strike any enemies attempting to flee. With Absorption Mark, Baalmon aims the Red Book of Appin at its enemy, causing its enemy to be absorbed into one of the book's pages.",
-        "img": "https://digimon.net/cimages/digimon/baalmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/baalmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Chamblemon",
@@ -281,7 +282,8 @@ const digiData = [
             "Razor Tail"
         ],
         "description": "Greymon (Blue) is the Virus type of Greymon, with a black and blue body. Fiercer than Greymon, it's often referred to as a completely wild member of the species, but it's no lone wolf. It is cunning enough to work together with allies to achieve its goals. Its special move is Mega Flame, which involves breathing out an intense stream of flames from its mouth.<br>\nEffects of the X-Antibody on Greymon (Blue)'s DigiCore<br>\nBoth Greymon's attack power and intelligence are increased, making it more capable of taking advantage of its prey's weaknesses in battle. If victorious in its fight, it ferociously rips apart its prey, much like a carnivorous dinosaur.<br>\nIts special move Mega Flame gains enough explosive power to become Mega Burst, and it also gains the ability to slice its enemies with its Razor Tail.",
-        "img": "https://digimon.net/cimages/digimon/greymon_blue_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/greymon_blue_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Espimon",
@@ -988,7 +990,8 @@ const digiData = [
             "Meteor Champion"
         ],
         "description": "A star-shaped Digimon discovered by chance in planetary analysis software installed at a space development center. Starmon is a space warrior in stellar power armor that wears boots and gloves emblazoned with a star symbol. Its ragged yellow scarf speaks to the many battles it has survived. Starmon’s eyes burn with fighting spirit in the center of its body, clearly conveying its desires in spite of its inability to speak. They can even be used in a more advanced fashion to hypnotize opponents. Starmon is a hot-blooded Digimon with a burning admiration for the warrior Leomon. Its special move is Meteor Shower, by which it calls down small meteors to crush its foe.<br>\n<br>\n■Effects of the X Antibody on Starmon (X Antibody)’s DigiCore<br>\n Its already hot fighting spirit burns even hotter, and its star-shaped suit of armor has powered up. Starmon (X Antibody) has mastered Meteor Champion, which multiplies its star-controlling power and drops the most destructive meteors on the enemy’s head with pinpoint accuracy. The semitransparent star in its chest is Starmon (X Antibody)’s bespoke “sunglasses.” It seems aware of its star quality, and its status as a space warrior, and thus wears it whenever it makes an appearance. It often removes them during battle.",
-        "img": "https://digimon.net/cimages/digimon/starmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/starmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "HerculesKabuterimon (X Antibody)",
@@ -1000,7 +1003,8 @@ const digiData = [
             "Horn Buster Revision"
         ],
         "description": "The ultimate Insectoid Digimon, HerculesKabuterimon Digivolved by combining data from both the Kabuterimon and the Kuwagamon species. Possessing a giant horn as well as huge pincers, HerculesKabuterimon is said to perfectly compensate for the weaknesses of these two species with opposing dispositions that it Digivolved from. Its body glitters gold, and having both regained and improved upon the ability to fly it lost as MegaKabuterimon, HerculesKabuterimon zooms around the Digital World at supersonic speeds. There are few who can rival HerculesKabuterimon in this Mega form. HerculesKabuterimon uses its special moveGiga Blaster, an upgraded version of Electro Shocker. Nothing can survive a direct hit from this attack.<br>\n<br>\n■Effects of the X Antibody on HerculesKabuterimon (X Antibody)’s DigiCore<br>\n It has changed from an insectoid appearance to one more specialized in melee combat, with both hands and feet transformed into sturdy limbs. That being said, HerculesKabuterimon (X Antibody) has not lost its insectoid speed. Its agile movements and ability to easily lift objects several times its size are both proof of its overwhelming strength. It uses its special move Giga Blaster to condense energy into a sphere several magnitudes of power stronger, or Horn Buster Revision to instantly dive next to the enemy for a fierce upward thrust attack.",
-        "img": "https://digimon.net/cimages/digimon/heraklekabuterimon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/heraklekabuterimon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Hagurumon (X Antibody)",
@@ -1011,7 +1015,8 @@ const digiData = [
             "Cog Crusher"
         ],
         "description": "Hagurumon is a mutant Machine Digimon with a main body resembling a large gear. It has countless other gears built into its body, all of which are constantly spinning. If even one gear is removed, all of its other gears will stop turning and Hagurumon will cease functioning. Hagurumon has an ability that allows it to infect others with a virus so it can control them. For this reason, malicious Digimon often make use of Hagurumon. Since Hagurumon has no sense of self, though, it has no way of knowing it is being used for evil. Its special move is Cog Crusher, by which it implants a black gear loaded with a computer virus into its opponent’s body, causing them to go berserk.<br>\n<br>\n■Effects of the X Antibody on Hagurumon (X Antibody)’s DigiCore<br>\n KoHagurumon containing even more powerful computer viruses have appeared. Still, neither Hagurumon (X Antibody) nor the KoHagurumon have any sense of self. Their sole connection is the fact that they rotate in sync with each other; if they fall out of sync, the KoHagurumon may fall off and take damage. Its gears have transformed into drills, causing injury to any who approach without caution.",
-        "img": "https://digimon.net/cimages/digimon/hagurumon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/hagurumon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Growlmon (X Antibody)",
@@ -1024,7 +1029,8 @@ const digiData = [
             "Raiden Blade"
         ],
         "description": "A Dark Dragon Digimon known as the “Deep Crimson Dragon.” The childishness from its time as Guilmon is gone, as it has Digivolved into a wilder, more ferocious creature. Although it is a Virus Digimon, Growlmon may become loyal depending on how its Tamer raises it. In fact, it might even fight for justice. Its roar is mighty enough to shake the ground, and Growlmon uses it as an aggressive display to intimidate the enemy before battle. It uses its signature move Plasma Blade to generate plasma with its forearm blades and attack the enemy. It also has the special move Exhaust Flame, by which it unleashes a powerful blast of fire with an explosive roar.<br>\n<br>\n■Effects of the X Antibody on Growlmon (X Antibody)’s DigiCore<br>\n Having accepted the exceptional power of the Digital Hazard into its body, and further raising its Virus type attack instinct, Growlmon (X Antibody) demonstrates ferocity and uncontrollable, overflowing power, and toes the line of justice depending on how it grows. Even so, it has clearly powered up, the blades on its forearms having grown even larger and generating plasma when it attacks enemies. Growlmon (X Antibody) uses its special move Raiden Blade to unleash the destructive energy generated by its Plasma Blade.",
-        "img": "https://digimon.net/cimages/digimon/growmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/growmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Brachiomon",
@@ -1388,7 +1394,8 @@ const digiData = [
             "Giga Destroyer"
         ],
         "description": "An Android Digimon with a mechanized upper body. The MetalGreymon of File Island were able to dramatically prolong their vital functioning through self-modification, although their natural bodies have turned blue from the stress. By contrast, a true MetalGreymon is a successful Digivolution from a Greymon, and is an extremely powerful Android Digimon. To successfully Digivolve into a MetalGreymon, a Greymon must face several mighty foes and defeat them in battle. Its attacks are said to be as powerful as a nuclear warhead, capable of completely obliterating lower-level Digimon. MetalGreymon uses its special move Trident Arm to attack with its reinforced Chrome Digizoid arm, and Giga Destroyer to fire bionic missiles from a hatch that opens in its chest. ",
-        "img": "https://digimon.net/cimages/digimon/metalgreymon_va_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/metalgreymon_va_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "ClearAgumon",
@@ -1425,7 +1432,8 @@ const digiData = [
             "Snow Fireworks"
         ],
         "description": "A proud Beast Man Digimon with a strong sense of justice. Some Leomon Digivolve into IceLeomon when, in the process of their daily training as champions of justice,, their bodies become infused with the power of cold in the frozen land of the Digital World’s Ice-Snow Area. Its body and will have been tempered by the freezing cold, and it will not falter in the face of any attack. IceLeomon uses its special move Fist of Ice to unleash a chill-infused punch. <br>\n<br>\n■Effects of the X Antibody on IceLeomon’s DigiCore:<br>\nIceLeomon (X Antibody) is also known as the “Cool-Headed White Lion” for its merciless composure in eradicating evil for the sake of justice. Its fighting style has been described as cold-hearted in the extreme. Its axe Yuki Hanabi is said to have been carved out of the legendary rare metal Mithril. Its power is such that it can easily smash through the icebergs of frozen arctic regions that loom as high as skyscrapers which would otherwise block all progress.",
-        "img": "https://digimon.net/cimages/digimon/panjyamon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/panjyamon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "MetalMamemon (X Antibody)",
@@ -1437,7 +1445,8 @@ const digiData = [
             "Energy Laser Bomb"
         ],
         "description": "An Android Digimon that Digivolved to become even more powerful than the “Smiley Bomber,” Mamemon. Its cuteness hasn’t changed, nor have the painful consequences of those tricked by this appearance. 90% of MetalMamemon’s body has been mechanized; the tremendous destructive force of its special move Energy Bomb fired from the Psycho Blaster on its left arm can fell a foe with certainty.<br>\n<br>\n■Effects of the X Antibody on MetalMamemon’s DigiCore:<br>\nThe high-tech mechanization of its body progressed until it became 99% cyborg. In battle, MetalMamemon (X Antibody) reliably executes commands to defeat the enemy, such as “attack,” “defend” or “move.” Its Psycho Blaster has also gone high-tech, enabling it to use Energy Laser Bomb to fire a special explosive laser that wipes out foes in an instant.",
-        "img": "https://digimon.net/cimages/digimon/metalmamemon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/metalmamemon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Monochromon (X Antibody)",
@@ -1449,7 +1458,8 @@ const digiData = [
             "Tomahawk Slash"
         ],
         "description": "An Armored Dragon Digimon with a rhinoceros-like horn growing from its snout. When that massive horn grows, it stands at half of its body length. A hard substance covers its horn and the top half is tough like diamond. They say there is nothing it cannot pierce. Monochromon is known to excel at both offense and defense. Although it is herbivorous and comparatively docile, once it is angered it will unleash fearsome counterattacks with its tank-like body. Its special move Volcanic Strike is a powerful flame projectile.<br>\n<br>\n■Effects of the X Antibody on Monochromon’s DigiCore:<br>\nIts epidermis shines black, having become an even sturdier shell that boosts its ability to survive all the more. The long claws growing out of Monochromon (X Antibody)’s limbs drive into the earth, stabilizing it so it can support its gigantic horn and swing it down. Its special moves have increased, and now it can use its new Tomahawk Slash to mow through foes with the enhanced power of its giant, hatchet-shaped horn.",
-        "img": "https://digimon.net/cimages/digimon/monochromon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/monochromon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Gotsumon (X Antibody)",
@@ -1461,7 +1471,8 @@ const digiData = [
             "Rage Rock"
         ],
         "description": "Gotsumon is an Ore Digimon with powerful defensive abilities, having armored itself using ore data from its surroundings. Spunky, mischievous, and ambitious as any young tough guy, it leads around groups of low-generation Digimon as it travels the system. It also has a selfish side, and can be a real handful when angered, rampaging like an erupting volcano. Depending on where and how it forms, the ore data it uses for armor may appear different, and it has the potential to Digivolve into a number of different forms. Gotsumon’s special move is Rock Fist, by which it shoots extremely hard ore from its head.<br>\n<br>\n■Effects of the X Antibody on Gotsumon’s DigiCore:<br>\nIts ability to clad itself in ore data from fields has improved, giving it a thicker body and heightened defense. Naturally, the heavy blows from Gotsumon (X Antibody)’s body have also powered up, and its reckless, fury-fueled Rage Rock tackle boasts impressive destructive power for a Rookie.",
-        "img": "https://digimon.net/cimages/digimon/gottsumon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/gottsumon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Thundermon (X Antibody)",
@@ -1474,7 +1485,8 @@ const digiData = [
             "Thunder Bomber"
         ],
         "description": "A Mutant Digimon surmised to be a variant of Mamemon known as the “Digimon Dynamo.” Thundermon’s small body is magnetically charged, and is constantly discharging electricity. It fires spheres of electricity with one billion volts at attacking enemies (Thunder Ball).<br>\n<br>\n■Effects of the X Antibody on Thundermon’s DigiCore:<br>\nIts electric power level has increased as it generates powerful electricity with simple punches and kicks, turning it into a threat dangerous enough to cause even large Digimon to lose the will to fight. Its special move Thunder Bomber is a combination of Anode Punch and Cathode Kick, generating a massive explosion like an electric bomb.",
-        "img": "https://digimon.net/cimages/digimon/thunderballmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/thunderballmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Gesomon (X Antibody)",
@@ -1486,7 +1498,8 @@ const digiData = [
             "Mad Viking"
         ],
         "description": "A Digimon shaped like a squid inhabiting the depths of the Net Ocean. Feared as the “White Demon of the Deep,” Gesomon is highly intelligent and won’t bring harm to Digimon outside of its territory. Still, any who invade its territory will face an onslaught akin to that of a raging god. It specializes in hit-and-run attacks, landing a blow before retreating far away. Gesomon uses its special move Deadly Shade to paralyze those struck for a long time with powerful poison. <br>\n<br>\n■Effects of the X Antibody on Gesomon’s DigiCore:<br>\nThe toxins within Gesomon (X Antibody)’s have evolved, transforming it into lethal creature eaten away by its own poison. It has a field day within its own territory, but extends its tentacled reach even beyond those borders, biting nearby Digimon and injecting poison to paralyze them. This attack often ends without it inflicting any fatal wounds, but Gesomon (X Antibody) has also learned Mad Viking, which it uses to prey on foes with its rows of teeth.",
-        "img": "https://digimon.net/cimages/digimon/gesomon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/gesomon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Dobermon (X Antibody)",
@@ -1498,7 +1511,8 @@ const digiData = [
             "Schwarz Strahl"
         ],
         "description": "Originally a Virus type, Dobermon is a Hunter Digimon that changed into a Vaccine type as a result of mutation. Like Snimon, however, it remains quite vicious despite its Vaccine status, living only to hunt down Viruses. It’s beyond the control of the average Tamer. Its special moves include Grau Lärm, where it lets out a howl that prevents its opponents from using their abilities, and Schwarz Strahl, where it fires a black beam of light to pierce an enemy’s body, destroying their DigiCore.<br>\n<br>\n■Effects of the X Antibody on Dobermon’s DigiCore:<br>\nIts ferocity has increased, transforming it into an uncontrollable mad dog. The original Dobermon was ferocious, yet highly intelligent, and was considered the ultimate Beast Digimon to bring down prey. The actions of an absolute master are needed to ensure Dobermon (X Antibody) shows its stuff, and even a hint of doting behavior is no longer permitted in that relationship.",
-        "img": "https://digimon.net/cimages/digimon/dobermon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/dobermon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Crabmon (X Antibody)",
@@ -1510,7 +1524,8 @@ const digiData = [
             "Heavy Crunch"
         ],
         "description": "A Crustacean Digimon that dramatically increased its combat ability by attaching metal data dissolved into the Net Ocean to its body. Crabmon attacks with a giant blade on its left pincer and the powerful grip of its right pincer. For defense, it relies on its thorny shell to damage attackers, and is utterly self-confident in battle. Its weak points are its joints and its underbelly, but since it is fully aware of these weaknesses, it rarely leaves them exposed. It enjoys trapping its opponents, and is something of a prankster. Its special move is Scissors Execution, by which it goes for its adversary’s throat with its sharp left pincer.<br>\n<br>\n■Effects of the X Antibody on Crabmon’s DigiCore:<br>\nHaving survived the harsh environment of the Net Ocean, Crabmon (X Antibody) swiftly attached metal data dissolved in the water to its body, eliminating any holes in its defense and giving it the ability to immediately restore broken parts. Repeated destruction and restoration of its shell means that each Crabmon (X Antibody) has a unique appearance. It has acquired the signature move Heavy Crunch, which it uses to bear down on the enemy and constrict it with its pincers.",
-        "img": "https://digimon.net/cimages/digimon/ganimon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/ganimon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Guilmon (X Antibody)",
@@ -1523,7 +1538,8 @@ const digiData = [
             "Fire Mitt"
         ],
         "description": "A Digimon resembling a young dinosaur. Although Guilmon is a Rookie Digimon, Guilmon possesses a carnivore’s brutality, and great potential as the fighting type Digimon it originally descended from. The mark on its chest is called the Digital Hazard, and is inscribed on any Digimon that could cause serious damage to computer data. Still, if used for the sake of peace, this ability could make it a guardian of the Digital World. It can use its signature move Rock Breaker to destroy even stone with its tenacious front claws. With its special move Fire Ball, it spits a powerful ball of flame from its mouth.<br>\n<br>\n■Effects of the X Antibody on Guilmon’s DigiCore:<br>\nThe Digital Hazard mark has disappeared from Guilmon (X Antibody). This is because it has accepted and contained that power within its small body. While it has yet to awaken to that power, its talent for maturing into the true guardian of the Digital World will improve if it is raised the right way. Its viral instincts have grown stronger, giving Guilmon (X Antibody) a more aggressive personality and letting it acquire the special move Fire Mitt, which it uses to strike foes with arms wrapped in its Fire Ball technique.",
-        "img": "https://digimon.net/cimages/digimon/guilmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/guilmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Shoutmon EX6",
@@ -2071,7 +2087,8 @@ const digiData = [
             "Booby Pit"
         ],
         "description": "A Mammal Digimon with huge, sharp claws. Gazimon is bipedal, which is unusual for Mammal types. The claws on its front limbs may have developed while it used them like arms, leading to Gazimon using its hind legs to walk. While not a large Digimon, it has an exceedingly wild temperament, and it never tries to get along with humans. The claws on its forelimbs are extremely effective for attacking, but are also surprisingly well-suited to digging holes. Due to Gazimon’s mischievous nature, it enjoys making pitfalls for other Digimon to fall into. It uses its special move Electric Stun Blast to breathe out a poisonous gas.<br>\n<br>\n■Effects of the X-Antibody on Gazimon’s DigiCore:<br>\nGazimon (X Antibody) has adopted a fighting style that takes advantage of its bipedal stance, making itself look bigger to overwhelm Digimon smaller than itself. Furthermore, it has acquired Booby Pit, a crafty fighting style that it uses to drop Digimon bigger than itself into special pitfalls. If the situation warrants, it will then fire off an Electric Stun Blast.",
-        "img": "https://digimon.net/cimages/digimon/gazimon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/gazimon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Betamon (X Antibody)",
@@ -2083,7 +2100,8 @@ const digiData = [
             "Electric Shock"
         ],
         "description": "An Amphibian Digimon that walks on four legs. Betamon is a docile Digimon with a mild temperament, although it won’t hesitate to unleash its special move Electric Shock when angered, attacking its enemies with over a million volts of electric current.<br>\n<br>\n■Effects of the X Antibody on Betamon’s DigiCore:<br>\nBetamon (X Antibody)’s mild temperament and emerald green body have made some enthusiasts hunt its kin for viewing pleasure. Although it is endangered, it is gradually growing accustomed to battle, as a life form evolving into a splendid Aquatic Digimon. Both its crest and foot claws have developed, allowing it to attack enemies that approach. Electric Shock is also powered up to 1.85 MV Electric Shock, enabling Betamon (X Antibody) to unleash 1.85 megavolts when its anger reaches its peak.",
-        "img": "https://digimon.net/cimages/digimon/betamon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/betamon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Ghostmon",
@@ -2225,7 +2243,8 @@ const digiData = [
             "Fox Fire"
         ],
         "description": "A wolf-like Beast Digimon with a pale silver pelt. Garurumon’s fur is said to be as hard as Mithril, the legendary rare metal, and the blades that extend from its shoulders are so sharp they can sever anything they touch. With its physique honed in the frozen tundra and its intense instinct for conflict, Garurumon is feared by other Digimon for its predatory ferocity and agility. However, it is also remarkably intelligent, and steadfastly loyal to those it acknowledges as its leader. Its special move is Fox Fire, by which it breathes out an intense stream of blue flames.<br>\n<br>\n■Effects of the X-Antibody on Garurumon’s DigiCore:<br>\nGarurumon (X Antibody)’s rare fur has hardened even further in regions of extreme cold, removing any possibility of harming it through simple means. Its combat instinct has grown even fiercer, and it will fight to the bitter end, so scant few Digimon are willing to take on Garurumon (X Antibody). As it boasts the greatest qualities of a Combat Species Digimon, its Tamer must have suitable qualifications as well.",
-        "img": "https://digimon.net/cimages/digimon/garurumon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/garurumon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Arresterdramon: Superior Mode",
@@ -2265,7 +2284,8 @@ const digiData = [
             "Mega Burst"
         ],
         "description": "A Dinosaur Digimon with skin hardened into a protective carapace around its skull. Aggressive by nature, Greymon uses its sharp claws and colossal horns as lethal weapons. Taming it earns you an intelligent ally of unmatched strength. Its special move is Mega Flame, by which it shoots searing flames from its mouth, incinerating all.<br>\n<br>\n■Effects of the X Antibody on Greymon’s DigiCore:<br>\nAs a Combat Species, Greymon was already superior among Dinosaur Digimon, but Greymon (X Antibody) has gained even more aggression. Its body is relatively small compared to the usually oversized Dinosaur Digimon, but it demonstrates ample ferocity befitting a carnivorous dinosaur, and has grown in strength through victory in battle. Greymon (X Antibody) has acquired Mega Burst, which it uses to charge up a Mega Flame in its mouth, maximizing its destructive power before unleashing it to explosive effect.",
-        "img": "https://digimon.net/cimages/digimon/greymon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/greymon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Argomon",
@@ -2546,7 +2566,8 @@ const digiData = [
             "Crazy Giggle"
         ],
         "description": "Keramon is a Rookie Digimon that Digivolved from Tsumemon. Now that its body has grown larger and its mouth is bigger, it can devour more data. Keramon is capable of consuming more than 100 megabytes per second, and most data is destroyed the instant Keramon accesses it. Extremely playful by nature, it thinks of its destructive acts as a kind of game. Its special move is Crazy Giggle, by which it unleashes a highly destructive beam of light from its mouth as it laughs... laughs?<br>\n<br>\n■Effects of the X Antibody on Keramon’s DigiCore:<br>\nKeramon (X Antibody) has divided its face into three parts while retaining a single body so it can chew through even a vast amount of data in a single bite. It’s reached the point where other Digimon have become its prey, and it can even devour a Mega should it catch one. Each face has a will of its own, resulting in a variety of expressions as they all consume the same food, with some seeming to savor the taste even as others find it unpleasant. This also means Keramon (X Antibody)’s special move Crazy Giggle is more than three times as effective as before, since it now performs the move with several different expressions at once.",
-        "img": "https://digimon.net/cimages/digimon/keramon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/keramon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "OmegaShoutmon (X Antibody)",
@@ -2560,7 +2581,8 @@ const digiData = [
             "Omega the Fusion"
         ],
         "description": "OmegaShoutmon obtained a legendary Digivolution from Omegamon when it unleashed its soul’s seething passion. In addition to its intense fervor, its entire body is clad in Omega inForce, a power it obtained from Omegamon, so it emits a golden glow from its sharp new form. This makes it impossible for enemies to directly perceive OmegaShoutmon. They can only take in its glowing afterimage. OmegaShoutmon’s Flame Cannon transforms the overflowing feelings of friendship in its heart into firepower, releasing a hail of bullets that can not only attack, but also become a wall of iron to protect its allies. It can also channel its zeal for justice into a burst of power from its V-shaped head that shines brighter than the sun, assaulting its foes with Victorize Banking and wiping them out. Or, with Hard Rock Soul, it can concentrate its fervent courage into flames that burst from its fists to either punch enemies at close range or blast them with fire from long range. Alternatively, it can put all of its fierce fighting spirit into its feet, turning them into blades to slice into its foes with Beat Slash. Finally, with Omega the Fusion, it can concentrate the power of the Omega inForce surrounding its body into an aura that it then condenses into a beam to fire at its enemies. All who’ve beheld the awesome brilliance of this attack are left utterly demoralized.<br>\n<br>\n■Effects of the X Antibody on OmegaShoutmon’s DigiCore:<br>\nThe red lines running all over OmegaShoutmon (X Antibody)’s form rose to the surface when its fiercely seething passion merged with the X Antibody. It can now channel that passion into crystal claws, allowing it to unleash its special move Flare Rock Spirit with enhanced fiery might. It can also use Heavy Heat Vulcan to fire a stream of tiny balls of fire, each one as powerful as a Mega Flame. Finally, its ultimate special move is Zeal Magnum, where it puts both hands together to charge up an energy blast of such scorching heat that it will never grow cold, then fires it at foes.",
-        "img": "https://digimon.net/cimages/digimon/omegashoutmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/omegashoutmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Ogudomon (X Antibody)",
@@ -2571,7 +2593,8 @@ const digiData = [
             "Destiny Death Destruction (Death 3)"
         ],
         "description": "Ogudomon is a Super Demon Lord with a bizarre form. It has seven legs and seven eyes, as well as an eighth eye unlike all the others. It is a strange incarnation that contains all the sins of the Digital World, but also has the power to atone for them. As a result, it can nullify the power of any Digimon with even a hint of wickedness within them, rendering them unable to defeat it. Its special moves include Oratio Grandioloqua, where it rampages around, driven by its desires, and Catedral, which involves unleashing a shockwave from its mouth much like a song. Finally, it has Gradus, where it crushes a foe with one of its giant legs.<br>\n<br>\n■Effects of the X Antibody on Ogudomon’s DigiCore:<br>\nThe X Antibody has only amplified Ogudomon (X Antibody)’s destructive impulses, as well as its evil intentions as one of the Seven Great Demon Lords Digimon. Its mere existence now gives off enough power to potentially destroy the Digital World. Its six arms, along with its head, have transformed into tentacle blades, each imbued with one of the powers of the Seven Deadly Digimon. It seeks to destroy whoever draws near, regardless of whether they’re friend or foe. ",
-        "img": "https://digimon.net/cimages/digimon/ogudomon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/ogudomon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Pegasusmon (X Antibody)",
@@ -2584,7 +2607,8 @@ const digiData = [
             "Sacred Wall"
         ],
         "description": "An Armor Holy Beast Digimon that has Digivolved with the Digi-Egg of Hope. The Digi-Egg of Hope has a holy attribute, allowing those who equip it to wield sacred power. This allows Pegasusmon to exhibit absolute power against evil beings. It uses its signature move Rodeo Gallop to unleash ferocious blows with its hind legs. Its special move Silver Blaze fires a holy beam from its forehead, and Shooting Star drops meteors from outer space formed within its wings.<br>\n<br>\n■Effects of the X Antibody on Pegasusmon’s DigiCore:<br>\nPegasusmon (X Antibody)’s armor has been enhanced, and it can now protect itself and its surroundings with Secret Wall, a barrier that repels evil. The area inside this barrier is governed by a unique set of physical laws, and if Pegasusmon (X Antibody) takes flight while Sacred Wall is active, it can quickly accelerate up to the speed of light. Its special move Meteorizer involves crashing down into an evil foe at light speed to wipe them out. It also has Golden Square, where it fires purifying beams of light from the crystals in its wings as well as its two front legs.",
-        "img": "https://digimon.net/cimages/digimon/pegasmon_x.jpg"
+        "img": "https://digimon.net/cimages/digimon/pegasmon_x.jpg",
+        "hasXAntibody": 1
     },
     {
         "name": "Monzaemon (X Antibody)",
@@ -13891,32 +13915,6 @@ const digiData = [
         "img": "https://digimon.net/cimages/digimon/cocomon.jpg"
     },
     {
-        "name": "FrosVelgrmon",
-        "level": "Mega",
-        "type": "Giant Bird",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Innocence Blizzard",
-            "Freezing Ray",
-            "Ruin Reverb"
-        ],
-        "description": "A Giant Bird Digimon that only rarely appears before others. FrosVelgrmon is regarded in one region as a symbol of awe and dread. There, legend has it that it appears before those lost on snowy peaks to pass judgment on them. Those it deems worthy of saving will be carried off the mountain, while those it finds wanting are granted only a peaceful death from its icy breath.<br>\nIts special moves include Innocence Blizzard, where it uses its wings and tail to create a blizzard that extends across a wide area, and Freezing Ray, where it shoots an intensely cold beam that instantly turns its target into dry ice. It enraptures others with its beautiful song Ruin Reverb.  But beware! Those who listen to this song of destruction in its entirety will be torn apart from within.",
-        "img": "https://digimon.net/cimages/digimon/frosvelgrmon.jpg"
-    },
-    {
-        "name": "Frozomon",
-        "level": "Ultimate",
-        "type": "Machine",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Removal Blow",
-            "Defrost Blade",
-            "Glaciate Missile"
-        ],
-        "description": "A Machine Digimon found in regions with heavy snowfall, Frozomon forcefully plows through ice and snow. Though it helps those lost in blizzards, it has a troubling tendency to eliminate anyone who tries to interfere with a rescue, including In-Training Digimon. Still, Frozomon is an expert at handling cold environments, capable not only of plowing away snow but also of melting ice with its heated sword.<br>\nIts special moves include Removal Blow, where it charges forward and unleashes a powerful punch with its massive right fist, and Defrost Blade, where it pierces enemies with the scorching hot sword on its left arm. Using Glaciate Missile, it can even shoot ice made from compacted snow sucked in by its propeller, leaving giant chunks of ice where it lands. These ice blocks can even stop avalanches.",
-        "img": "https://digimon.net/cimages/digimon/frozomon.jpg"
-    },
-    {
         "name": "Chibomon",
         "level": "In-Training I",
         "type": "Slime",
@@ -13928,17 +13926,6 @@ const digiData = [
         "img": "https://digimon.net/cimages/digimon/chicomon.jpg"
     },
     {
-        "name": "Hiyarimon",
-        "level": "In-Training II",
-        "type": "Lesser",
-        "attribute": "",
-        "specialMoves": [
-            "Diamond Dust"
-        ],
-        "description": "A Lesser Digimon that Digivolved from YukimiBotamon. Hiyarimon's body is covered in snow, having shed its fluffy white hair. These Digimon live in large numbers on snow-topped mountains, and don't stray out during the day, in case their bodies melt. Apparently Hiyarimon perks up the longer the icicle hanging from its beak gets.<br>\nIts signature move is Diamond Dust, where it blows freezing cold air from its mouth.",
-        "img": "https://digimon.net/cimages/digimon/hiyarimon.jpg"
-    },
-    {
         "name": "Kuramon",
         "level": "In-Training I",
         "type": "Unidentified",
@@ -13948,1142 +13935,6 @@ const digiData = [
         ],
         "description": "An Unidentified Digimon that suddenly appeared on a computer network. A single Digi-Egg was born from the malice of humans abusing computer networks and the aggression from conflicts unfolding over networks. The Digi-Egg was the amalgamation of humanity’s destructive instincts, and the mysterious Digimon born from it is incredibly dangerous. It multiplies within a computer network like a virus, causing minor network failures. It uses its special move Glare Eye to produce a frothy substance from its giant eye.",
         "img": "https://digimon.net/cimages/digimon/kuramon.jpg"
-    },
-    {
-        "name": "RareRaremon",
-        "level": "Ultimate",
-        "type": "Undead",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Digestion",
-            "Decayson"
-        ],
-        "description": "The Ultimate form of Raremon, a bizarre form achieved through further mechanization to survive its body’s progressive decay. Repeated breakdown and reformation of RareRaremon’s body has given form to eyes and mouths that begin rotting as soon as they appear. The stench from its body has only grown stronger, to the extent that even Mega Digimon dare not approach. It uses energy to maintain its form, so it employs Digestion to swallow the enemy whole with the mouth on its head, dissolving them to supply itself with energy. It also uses Decayson to spew toxic gas from several mouths, instantly killing any foes who inhale it.",
-        "img": "https://digimon.net/cimages/digimon/rareraremon.jpg"
-    },
-    {
-        "name": "Climbmon",
-        "level": "Ultimate",
-        "type": "Insectoid",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Giton Isolation",
-            "Piton Strike",
-            "Dynamic Scyther"
-        ],
-        "description": "An Insectoid Digimon that Digivolved from bouldering course data. The pickaxes on Climbmon's arms are not only good for scaling cliffs, they also allow it to hammer the pitons hidden beneath its wings into hard rock. Through skillful use of its pitons and axes, Climbmon can hold firm in the most tenuous positions and move with the speed and grace of a ninja.<br>\nIt specializes in surprise attacks, using its camouflage technique Giton Isolation to blend in with its surroundings and silently sneak up on foes. Its special moves include Piton Strike, where it throws its pitons at range, and Dynamic Scyther, where it extends its pickaxe-arms then spins, slicing its way through foes.",
-        "img": "https://digimon.net/cimages/digimon/climbmon.jpg"
-    },
-    {
-        "name": "BlackSeraphimon",
-        "level": "Mega",
-        "type": "Seraph",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Seven Hells",
-            "Testament"
-        ],
-        "description": "The form taken by the supreme Angel Digimon Seraphimon when resentment hidden within it swelled until it was swallowed by darkness. BlackSeraphimon’s once golden wings and armor undergo a sinister transformation, and it will supposedly fall to become an Evil King Digimon if it maintains this form for long. It uses its special move Seven Hells to fire seven orbs of high-temperature darkness, and its ultimate technique Testament burns the enemy with hellfire in exchange for its life.",
-        "img": "https://digimon.net/cimages/digimon/blackseraphimon.jpg"
-    },
-    {
-        "name": "ClearAgumon",
-        "level": "Rookie",
-        "type": "Puppet",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Precious Flare",
-            "Dream Missile"
-        ],
-        "description": "A subspecies of ToyAgumon composed of transparent plastic blocks. An extremely rare Digimon, ClearAgumon was supposedly made by a child just like ToyAgumon. Still, finding one is a quite difficult, with an estimated 0.1% of ToyAgumon turning out this way. It is cowardly like ToyAgumon, yet maintains a strong sense of justice that won’t allow for any sort of wrongdoing. ClearAgumon uses its special move Precious Flare to breathe out a toy flame, or Dream Missile to fire a toy missile from its mouth.",
-        "img": "https://digimon.net/cimages/digimon/clearagumon.jpg"
-    },
-    {
-        "name": "BanchoLillymon",
-        "level": "Mega",
-        "type": "Pixie",
-        "attribute": "Data",
-        "specialMoves": [
-            "Absolute Territory",
-            "Nightmare Assemble",
-            "Twin Petal"
-        ],
-        "description": "A Pixie Digimon draped in a deep crimson tokko-fuku jacket. The florid petals from when it was Lillymon have been dyed a dark color, shedding the sweet impression it once had. <br>\nBanchoLillymon has the conviction to fight for the weak in the dog-eat-dog Digital World, and has saved countless lives from assault by fiendish Digimon. Its tokko-fuku jacket and the title of “Bancho” are proof of this conviction. <br>\nBanchoLillymon has several special moves utilizing its yo-yos as weapons: using Absolute Territory to cut up the enemy with the very air around them, Nightmare Assemble to thrust the yo-yos at its foe and absorb them, and Twin Petal to unleash flash kicks from its gorgeous legs.",
-        "img": "https://digimon.net/cimages/digimon/bancholilimon.jpg"
-    },
-    {
-        "name": "IceLeomon (X Antibody)",
-        "level": "Ultimate",
-        "type": "Beast Man",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Fist of Ice",
-            "Snow Fireworks"
-        ],
-        "description": "A proud Beast Man Digimon with a strong sense of justice. Some Leomon Digivolve into IceLeomon when, in the process of their daily training as champions of justice,, their bodies become infused with the power of cold in the frozen land of the Digital World’s Ice-Snow Area. Its body and will have been tempered by the freezing cold, and it will not falter in the face of any attack. IceLeomon uses its special move Fist of Ice to unleash a chill-infused punch. <br>\n<br>\n■Effects of the X Antibody on IceLeomon’s DigiCore:<br>\nIceLeomon (X Antibody) is also known as the “Cool-Headed White Lion” for its merciless composure in eradicating evil for the sake of justice. Its fighting style has been described as cold-hearted in the extreme. Its axe Yuki Hanabi is said to have been carved out of the legendary rare metal Mithril. Its power is such that it can easily smash through the icebergs of frozen arctic regions that loom as high as skyscrapers which would otherwise block all progress.",
-        "img": "https://digimon.net/cimages/digimon/panjyamon_x.jpg"
-    },
-    {
-        "name": "MetalMamemon (X Antibody)",
-        "level": "Ultimate",
-        "type": "Android",
-        "attribute": "Data",
-        "specialMoves": [
-            "Energy Bomb",
-            "Energy Laser Bomb"
-        ],
-        "description": "An Android Digimon that Digivolved to become even more powerful than the “Smiley Bomber,” Mamemon. Its cuteness hasn’t changed, nor have the painful consequences of those tricked by this appearance. 90% of MetalMamemon’s body has been mechanized; the tremendous destructive force of its special move Energy Bomb fired from the Psycho Blaster on its left arm can fell a foe with certainty.<br>\n<br>\n■Effects of the X Antibody on MetalMamemon’s DigiCore:<br>\nThe high-tech mechanization of its body progressed until it became 99% cyborg. In battle, MetalMamemon (X Antibody) reliably executes commands to defeat the enemy, such as “attack,” “defend” or “move.” Its Psycho Blaster has also gone high-tech, enabling it to use Energy Laser Bomb to fire a special explosive laser that wipes out foes in an instant.",
-        "img": "https://digimon.net/cimages/digimon/metalmamemon_x.jpg"
-    },
-    {
-        "name": "MetalGreymon (Vaccine) (X Antibody)",
-        "level": "Ultimate",
-        "type": "Android",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Trident Arm Ver. 9.9",
-            "Giga Destroyer"
-        ],
-        "description": "An Android Digimon with a mechanized upper body. The MetalGreymon of File Island were able to dramatically prolong their vital functioning through self-modification, although their natural bodies have turned blue from the stress. By contrast, a true MetalGreymon is a successful Digivolution from a Greymon, and is an extremely powerful Android Digimon. To successfully Digivolve into a MetalGreymon, a Greymon must face several mighty foes and defeat them in battle. Its attacks are said to be as powerful as a nuclear warhead, capable of completely obliterating lower-level Digimon. MetalGreymon uses its special move Trident Arm to attack with its reinforced Chrome Digizoid arm, and Giga Destroyer to fire bionic missiles from a hatch that opens in its chest. ",
-        "img": "https://digimon.net/cimages/digimon/metalgreymon_va_x.jpg"
-    },
-    {
-        "name": "Divemon",
-        "level": "Ultimate",
-        "type": "Aquatic",
-        "attribute": "Data",
-        "specialMoves": [
-            "Fillet Blade",
-            "Ripple Edge",
-            "Liquid Veil"
-        ],
-        "description": "A Digimon that Digivolved from research data that analyzes the techniques of world-class swimmers. Though Divemon may look half-fish, when on land it can walk on two legs. One of the fastest swimmers of all Aquatic Digimon, it uses its four eyes to keep its prey in sight in the water. Despite its fierce appearance, it has a strong sense of fair play and is devoted to the pursuit of beauty in swimming.<br>\nIts special moves include Fillet Blade, where it carves through foes with its sharp fins, and Ripple Edge, where it fires a blast of water that has been compressed into a blade. When Divemon is on land, it relies instead on Liquid Veil, which covers its body in watery armor that boosts its physical capabilities. This allows it to fight with as much power as if it were in the water.",
-        "img": "https://digimon.net/cimages/digimon/divemon.jpg"
-    },
-    {
-        "name": "Thundermon (X Antibody)",
-        "level": "Champion",
-        "type": "Mutant",
-        "attribute": "Data",
-        "specialMoves": [
-            "Anode Punch",
-            "Cathode Kick",
-            "Thunder Bomber"
-        ],
-        "description": "A Mutant Digimon surmised to be a variant of Mamemon known as the “Digimon Dynamo.” Thundermon’s small body is magnetically charged, and is constantly discharging electricity. It fires spheres of electricity with one billion volts at attacking enemies (Thunder Ball).<br>\n<br>\n■Effects of the X Antibody on Thundermon’s DigiCore:<br>\nIts electric power level has increased as it generates powerful electricity with simple punches and kicks, turning it into a threat dangerous enough to cause even large Digimon to lose the will to fight. Its special move Thunder Bomber is a combination of Anode Punch and Cathode Kick, generating a massive explosion like an electric bomb.",
-        "img": "https://digimon.net/cimages/digimon/thunderballmon_x.jpg"
-    },
-    {
-        "name": "Dobermon (X Antibody)",
-        "level": "Champion",
-        "type": "Dark Beast",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Grau Lärm",
-            "Schwarz Strahl"
-        ],
-        "description": "Originally a Virus type, Dobermon is a Hunter Digimon that changed into a Vaccine type as a result of mutation. Like Snimon, however, it remains quite vicious despite its Vaccine status, living only to hunt down Viruses. It’s beyond the control of the average Tamer. Its special moves include Grau Lärm, where it lets out a howl that prevents its opponents from using their abilities, and Schwarz Strahl, where it fires a black beam of light to pierce an enemy’s body, destroying their DigiCore.<br>\n<br>\n■Effects of the X Antibody on Dobermon’s DigiCore:<br>\nIts ferocity has increased, transforming it into an uncontrollable mad dog. The original Dobermon was ferocious, yet highly intelligent, and was considered the ultimate Beast Digimon to bring down prey. The actions of an absolute master are needed to ensure Dobermon (X Antibody) shows its stuff, and even a hint of doting behavior is no longer permitted in that relationship.",
-        "img": "https://digimon.net/cimages/digimon/dobermon_x.jpg"
-    },
-    {
-        "name": "Gotsumon (X Antibody)",
-        "level": "Rookie",
-        "type": "Ore",
-        "attribute": "Data",
-        "specialMoves": [
-            "Rock Fist",
-            "Rage Rock"
-        ],
-        "description": "Gotsumon is an Ore Digimon with powerful defensive abilities, having armored itself using ore data from its surroundings. Spunky, mischievous, and ambitious as any young tough guy, it leads around groups of low-generation Digimon as it travels the system. It also has a selfish side, and can be a real handful when angered, rampaging like an erupting volcano. Depending on where and how it forms, the ore data it uses for armor may appear different, and it has the potential to Digivolve into a number of different forms. Gotsumon’s special move is Rock Fist, by which it shoots extremely hard ore from its head.<br>\n<br>\n■Effects of the X Antibody on Gotsumon’s DigiCore:<br>\nIts ability to clad itself in ore data from fields has improved, giving it a thicker body and heightened defense. Naturally, the heavy blows from Gotsumon (X Antibody)’s body have also powered up, and its reckless, fury-fueled Rage Rock tackle boasts impressive destructive power for a Rookie.",
-        "img": "https://digimon.net/cimages/digimon/gottsumon_x.jpg"
-    },
-    {
-        "name": "Monochromon (X Antibody)",
-        "level": "Champion",
-        "type": "Armored Dragon",
-        "attribute": "Data",
-        "specialMoves": [
-            "Volcanic Strike",
-            "Tomahawk Slash"
-        ],
-        "description": "An Armored Dragon Digimon with a rhinoceros-like horn growing from its snout. When that massive horn grows, it stands at half of its body length. A hard substance covers its horn and the top half is tough like diamond. They say there is nothing it cannot pierce. Monochromon is known to excel at both offense and defense. Although it is herbivorous and comparatively docile, once it is angered it will unleash fearsome counterattacks with its tank-like body. Its special move Volcanic Strike is a powerful flame projectile.<br>\n<br>\n■Effects of the X Antibody on Monochromon’s DigiCore:<br>\nIts epidermis shines black, having become an even sturdier shell that boosts its ability to survive all the more. The long claws growing out of Monochromon (X Antibody)’s limbs drive into the earth, stabilizing it so it can support its gigantic horn and swing it down. Its special moves have increased, and now it can use its new Tomahawk Slash to mow through foes with the enhanced power of its giant, hatchet-shaped horn.",
-        "img": "https://digimon.net/cimages/digimon/monochromon_x.jpg"
-    },
-    {
-        "name": "Gesomon (X Antibody)",
-        "level": "Champion",
-        "type": "Mollusk",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Deadly Shade",
-            "Mad Viking"
-        ],
-        "description": "A Digimon shaped like a squid inhabiting the depths of the Net Ocean. Feared as the “White Demon of the Deep,” Gesomon is highly intelligent and won’t bring harm to Digimon outside of its territory. Still, any who invade its territory will face an onslaught akin to that of a raging god. It specializes in hit-and-run attacks, landing a blow before retreating far away. Gesomon uses its special move Deadly Shade to paralyze those struck for a long time with powerful poison. <br>\n<br>\n■Effects of the X Antibody on Gesomon’s DigiCore:<br>\nThe toxins within Gesomon (X Antibody)’s have evolved, transforming it into lethal creature eaten away by its own poison. It has a field day within its own territory, but extends its tentacled reach even beyond those borders, biting nearby Digimon and injecting poison to paralyze them. This attack often ends without it inflicting any fatal wounds, but Gesomon (X Antibody) has also learned Mad Viking, which it uses to prey on foes with its rows of teeth.",
-        "img": "https://digimon.net/cimages/digimon/gesomon_x.jpg"
-    },
-    {
-        "name": "Crabmon (X Antibody)",
-        "level": "Rookie",
-        "type": "Crustacean",
-        "attribute": "Data",
-        "specialMoves": [
-            "Scissors Execution",
-            "Heavy Crunch"
-        ],
-        "description": "A Crustacean Digimon that dramatically increased its combat ability by attaching metal data dissolved into the Net Ocean to its body. Crabmon attacks with a giant blade on its left pincer and the powerful grip of its right pincer. For defense, it relies on its thorny shell to damage attackers, and is utterly self-confident in battle. Its weak points are its joints and its underbelly, but since it is fully aware of these weaknesses, it rarely leaves them exposed. It enjoys trapping its opponents, and is something of a prankster. Its special move is Scissors Execution, by which it goes for its adversary’s throat with its sharp left pincer.<br>\n<br>\n■Effects of the X Antibody on Crabmon’s DigiCore:<br>\nHaving survived the harsh environment of the Net Ocean, Crabmon (X Antibody) swiftly attached metal data dissolved in the water to its body, eliminating any holes in its defense and giving it the ability to immediately restore broken parts. Repeated destruction and restoration of its shell means that each Crabmon (X Antibody) has a unique appearance. It has acquired the signature move Heavy Crunch, which it uses to bear down on the enemy and constrict it with its pincers.",
-        "img": "https://digimon.net/cimages/digimon/ganimon_x.jpg"
-    },
-    {
-        "name": "Guilmon (X Antibody)",
-        "level": "Rookie",
-        "type": "Dark Dragon",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Rock Breaker",
-            "Fire Ball",
-            "Fire Mitt"
-        ],
-        "description": "A Digimon resembling a young dinosaur. Although Guilmon is a Rookie Digimon, Guilmon possesses a carnivore’s brutality, and great potential as the fighting type Digimon it originally descended from. The mark on its chest is called the Digital Hazard, and is inscribed on any Digimon that could cause serious damage to computer data. Still, if used for the sake of peace, this ability could make it a guardian of the Digital World. It can use its signature move Rock Breaker to destroy even stone with its tenacious front claws. With its special move Fire Ball, it spits a powerful ball of flame from its mouth.<br>\n<br>\n■Effects of the X Antibody on Guilmon’s DigiCore:<br>\nThe Digital Hazard mark has disappeared from Guilmon (X Antibody). This is because it has accepted and contained that power within its small body. While it has yet to awaken to that power, its talent for maturing into the true guardian of the Digital World will improve if it is raised the right way. Its viral instincts have grown stronger, giving Guilmon (X Antibody) a more aggressive personality and letting it acquire the special move Fire Mitt, which it uses to strike foes with arms wrapped in its Fire Ball technique.",
-        "img": "https://digimon.net/cimages/digimon/guilmon_x.jpg"
-    },
-    {
-        "name": "TorikaraBallmon",
-        "level": "In-Training II",
-        "type": "Food",
-        "attribute": "",
-        "specialMoves": [
-            "Vegetable Bubbles"
-        ],
-        "description": "A Digimon born from deep-fried food recipe data. TorikaraBallmon flaps around wafting a delectable aroma, making the tummies of other Digimon rumble when it shows up in their area. When chased by hungry Digimon, it blows Vegetable Bubbles from its mouth to make the opponent slippery, obstructing their movements while it flies off, leaving nothing but its scent behind.",
-        "img": "https://digimon.net/cimages/digimon/torikaraballmon.jpg"
-    },
-    {
-        "name": "Burgamon",
-        "level": "Rookie",
-        "type": "Food",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Delicious Patty",
-            "Green Pickles"
-        ],
-        "description": "A Food Digimon that took in data from a myriad of hamburgers. Burgamon’s greatest joy is serving hamburgers full of TLC to Digimon with empty stomachs. It aims to open a top-notch hamburger shop with EbiBurgamon that customers will flock to. Burgamon is merciless toward those who interrupt a meal, using Delicious Patty to stick the opponent in a big, beautiful patty and kneed them, and Green Pickles to hurl pickle-shaped discs like a frisbee.",
-        "img": "https://digimon.net/cimages/digimon/burgamon.jpg"
-    },
-    {
-        "name": "Shoutmon EX6",
-        "level": "Mega",
-        "type": "Composite",
-        "attribute": "Data",
-        "specialMoves": [
-            "Sol Calibur",
-            "Demolition Horn",
-            "Meteor Rock Soul"
-        ],
-        "description": "Shoutmon EX6 is the Evolution Mode formed from a Digixrose of Digivolved Digimon including OmegaShoutmon, and is thought to surpass Shoutmon X7 in terms of defense and flying ability due to a body and wings that shine gold and silver. The Demolition Horn on its left arm applies hyper-oscillation the moment it pierces its foe, shattering any armor. Shoutmon EX6 also has the Sol Calibur sword equipped to its right arm. With ShootingStarmon around, it will use the combined special move Meteor Rock Soul to unleash a fist strike heavy enough to crack a star.",
-        "img": "https://digimon.net/cimages/digimon/shoutomon_ex6.jpg"
-    },
-    {
-        "name": "Potamon",
-        "level": "Champion",
-        "type": "Food",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Shubashuba Potato",
-            "Bashed Potato"
-        ],
-        "description": "A gourmet Digimon that scanned data on all forms of fries. Potamon walks around eating fries, handing out choice morsels so that many Digimon will know how delicious they are. It recognizes those who find fault with its fries as complainers, using Shubashuba Potato to launch razor-sharp fries from above, and Bashed Potato to rain big, flat, piping-hot fries down from the sky. Opponents who apologize can then enjoy the magnificence of its fries. Potamon vies with Burgamon over who is the true king of fast food.",
-        "img": "https://digimon.net/cimages/digimon/potamon.jpg"
-    },
-    {
-        "name": "Achillesmon",
-        "level": "Mega",
-        "type": "Beast Man",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Anemodarmenos",
-            "Asteroeidis",
-            "L?nkh? Adistakto"
-        ],
-        "description": "Achillesmon is a Mega Digimon that Digivolved by becoming an expert in every combat-style known to man. Possessing mastery over its mind, body, and techniques, it is a true challenger: always training, and never boasting about its great strength. It has no physical weaknesses, and it never leaves its opponents any openings, whether competing in sports or in battle.<br>\nThe shields on its feet function as boosters, which it uses to great effect. With Anemodarmenos, it moves so fast it leaves an afterimage that confuses opponents, and with Asteroeidis it unleashes a lightning-fast kick. Its special move is Lónkhē Adistakto, where it hurls its divine spear into its opponent's DigiCore.",
-        "img": "https://digimon.net/cimages/digimon/achillesmon.jpg"
-    },
-    {
-        "name": "Shivamon",
-        "level": "Mega",
-        "type": "Insectoid",
-        "attribute": "Data",
-        "specialMoves": [
-            "K??astha Kira?a",
-            "Kamala Karma",
-            "Sam?dhi ??nti"
-        ],
-        "description": "A Mega Digimon that Digivolved by reaching enlightenment through yoga. Shivamon strives for balance, possessing both a peaceful heart and a strict discipline, with which it guides others. Its harsher side comes to the fore when dealing with disrespectful or riotous types, obliterating them without mercy. The energy in its body holds as much power as nuclear fuel. Ultimately, Shivamon is a god of destruction capable of wiping out everything.<br>\nIts special moves include Kūṭastha Kiraṇa, where it fires a ball of unbelievably powerful light energy from its palms, and Kamala Karma, where it launches one of its arm rings (which it can transform at will) to knock its opponent away. With Samādhi Śānti, it performs a yoga pose to generate a rainbow-colored barrier that can block almost all attacks. Only those who have gained power through yoga like Shivamon can penetrate it.",
-        "img": "https://digimon.net/cimages/digimon/shivamon.jpg"
-    },
-    {
-        "name": "Tempomon",
-        "level": "Ultimate",
-        "type": "Bird Man",
-        "attribute": "Data",
-        "specialMoves": [
-            "Rhythmic Arts",
-            "Howling Blast",
-            "Upbeat Twister"
-        ],
-        "description": "A Bird Man Digimon that Digivolved from dance-music data. Tempomon is a consummate dancer, always moving rhythmically, even in battle where it grooves out its techniques. It is able to dance to everything from upbeat dance music to slower love songs. However, if it loses its headphones or the music stops, be careful! It grows furious and loses control.<br>\nIt is a master of Rhythmic Arts, a dance-based fighting technique that incorporates moves from capoeira and other martial arts. Its special moves are Howling Blast, where it blows opponents away with a high-amp beat from its chest-speaker, and Upbeat Twister, where it kicks up tornadoes and deafening sounds with its fancy footwork.",
-        "img": "https://digimon.net/cimages/digimon/tempomon.jpg"
-    },
-    {
-        "name": "Kazuchimon",
-        "level": "Mega",
-        "type": "Deity",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Nito Seirai",
-            "Shido Ittetsu",
-            "Shinden Shouraiko"
-        ],
-        "description": "A Mega Digimon that Digivolved after training its body and spirit to the utmost limit under an unfathomably strict regimen. To Kazuchimon, battle demands one's all, a sacred rite never to be defiled. Kazuchimon is a warrior to the core, and can grow so obsessed with refining its strategy and techniques that it will forget to eat or sleep. It fights like a raging god of war, strong enough to level thousands with a single blow.<br>\nIts special moves include Nito Seirai, where it cuts down foes with its twin lightning blades, and Shido Ittetsu,, where it forces opponents into a one-on-one match by trapping them with a lightning barrier. Finally, to finish a foe, it uses its ultimate attack Shinden Shouraiko to condense all the surrounding electrical energy into a super-dense ball of lightning that it fires at its opponent.",
-        "img": "https://digimon.net/cimages/digimon/kazuchimon.jpg"
-    },
-    {
-        "name": "Pistmon",
-        "level": "Ultimate",
-        "type": "Vegetation",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Bramble Shot",
-            "Crimson Spores",
-            "Killer Cadence"
-        ],
-        "description": "A Vegetation Digimon that Digivolved from a road cyclist training program. Pistmon's bicycle-like wheeled portions are completely fused to its body, so when it's not in motion it relies on its impressive sense of balance to remain upright. Its thorny vines that function like tires can change shape, allowing Pistmon to quickly travel over rough roads without fear of getting a flat tire.<br>\nIts special moves include Bramble Shot, where it fires thorns from its handlebars, and Crimson Spores, where it shoots out highly poisonous spores from the protrusions on its back. Finally, it can mow down groups of enemies by enlarging its tires with Killer Cadence.",
-        "img": "https://digimon.net/cimages/digimon/pistmon.jpg"
-    },
-    {
-        "name": "Boutmon",
-        "level": "Ultimate",
-        "type": "Beast Man",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Lightning Heel",
-            "Buden Blast",
-            "Storm of Blows"
-        ],
-        "description": "A Digimon that Digivolved from data related to combat sports, like karate. Well-versed in the rules of all fighting styles, the courteous Boutmon will battle in the style of its opponent's choosing. Boutmon can perform a wide variety of techniques, and will occasionally even unleash an attack from a fighting game or other fictional source.<br>\nIts special moves include Lightning Heel, where it smashes its opponent's head with a lightning-charged axe kick, and Buden Blast, where it releases a huge burst of energy from its hands. Finally, it has Storm of Blows, where it launches a flurry of kicks, punches, and other techniques without ever giving its opponent a chance to fight back.",
-        "img": "https://digimon.net/cimages/digimon/boutmon.jpg"
-    },
-    {
-        "name": "Mitamamon",
-        "level": "Mega",
-        "type": "God Beast",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Gouenrin",
-            "Kaijinraidou",
-            "Kyouka Suigetsu"
-        ],
-        "description": "A Holy Digimon said to send the souls of Digimon who accumulated good deeds in their lifetimes to heaven. Mitamamon is a fusion of fire, water, lightning and wind energies, and has no physical form outside of its DigiCore. Its form is visible yet intangible, and the only Digimon allowed to touch it are those it has acknowledged when they’re on the verge of death. <br>\nEven so, those who perceive the location of its DigiCore can touch it, so on extremely rare occasions it is challenged to battle by rough-natured Digimon. <br>\nMitamamon is a gentle soul that dislikes conflict, and so it ignores most challenges that come its way. Still, once something incurs its wrath, it transforms into a raging beast that deals crushing blows without mercy. <br>\nMitamamon uses its special move Gouenrin to fire a flame-covered wheel with a gust of wind, and Kaijinraidou to strike down the enemy with lightning from its eyes that never misses. It also uses the recovery technique Kyouka Suigetsu to heal battle wounds with its water element.",
-        "img": "https://digimon.net/cimages/digimon/mitamamon.jpg"
-    },
-    {
-        "name": "Shootmon",
-        "level": "Ultimate",
-        "type": "Machine",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Cannonball Shooter",
-            "Wild Pitch",
-            "Round Jail"
-        ],
-        "description": "A Machine Digimon that Digivolved from global ball-game data. Shootmon hopes to popularize ball games in every corner of the Digital World, which is why it carries around a cannon capable of shooting any kind of ball. It always smiles whatever its mood, which intimidates some Digimon, earning it the nickname \"The Grinning Demon Coach\".<br>\nShootmon's special moves include Cannonball Shooter, where it fires a ball from its cannon at 185+ mph, and Wild Pitch, where it kicks its opponent with its spring-like legs. Finally, with Round Jail, Shootmon turns whatever it touches into a ball, then mercilessly fires it from its cannon.",
-        "img": "https://digimon.net/cimages/digimon/shootmon.jpg"
-    },
-    {
-        "name": "LovelyAngemon",
-        "level": "Mega",
-        "type": "Warrior",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Marble Impact",
-            "Dream Hurricane",
-            "Lovely Shower"
-        ],
-        "description": "A close-combat specialist famed as an angel that descended to earth. LovelyAngemon’s pleasant personality is always bright, cheerful and fashion-conscious, and it enjoys walking around eating delicious food. Still, it contains the data of magical hand-to-hand fighters, and unleashes breathtaking martial arts combos on fiendish, unforgivable foes. Come what may, it will overcome any dilemma and achieve victory with a persevering heart. LovelyAngemon uses its special move Marble Impact to unleash a seven-colored thrust with its entire body behind it, or Dream Hurricane to jump high into the air for a spinning kick. It also uses Lovely Shower to punch out with its fist, shooting a heart-shaped energy ball at the enemy that purifies the evil in their heart.",
-        "img": "https://digimon.net/cimages/digimon/lovelyangemon.jpg"
-    },
-    {
-        "name": "Dokimon",
-        "level": "In-Training I",
-        "type": "Slime",
-        "attribute": "",
-        "specialMoves": [
-            "Static Shock"
-        ],
-        "description": "A Slime Digimon born from human biological data. If you pick one up, you might be surprised to find its entire body vibrates at a steady rhythm. Even more surprising is that this rhythm matches the pulse of whoever is holding it. When threatened, Dokimon warns its foes to back off by charging the end of its horn with static electricity.",
-        "img": "https://digimon.net/cimages/digimon/dokimon.jpg"
-    },
-    {
-        "name": "Bibimon",
-        "level": "In-Training II",
-        "type": "Lesser",
-        "attribute": "",
-        "specialMoves": [
-            "Minimal Flash"
-        ],
-        "description": "A Lesser Digimon that Digivolved from Dokimon. Ever full of energy, Bibimon is constantly running around and getting into trouble. Unfortunately, it still isn't used to moving on four legs, so it frequently loses its balance and falls over. In battle, it is unfazed by its opponents despite being an In-Training Digimon, using Minimal Flash to charge itself with electricity and tackle them.",
-        "img": "https://digimon.net/cimages/digimon/bibimon.jpg"
-    },
-    {
-        "name": "Namakemon",
-        "level": "Champion",
-        "type": "Puppet",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Poop Toss",
-            "Paralyze Lick"
-        ],
-        "description": "Namakemon is a Puppet Digimon whose sole joys in life are eating and sleeping. Its aversion to exercise has erased its fighting instinct. It instead spends its time in high places like the tops of trees so it never has to interact with anyone. Since it uses both arms to hold onto branches most of the time, its dexterous tongue has become like a third arm.<br>\nNamakemon drives off foes with Poop Toss, which is exactly the kind of attack you're imagining it is. Its close-range attack Paralyze Lick involves licking an opponent to coat it in a paralyzing saliva. However, it seldom has chance to use it.",
-        "img": "https://digimon.net/cimages/digimon/namakemon.jpg"
-    },
-    {
-        "name": "Runnermon",
-        "level": "Champion",
-        "type": "Beast",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Lightning Rush",
-            "Heartbeat Impulse"
-        ],
-        "description": "A Beast Digimon that Digivolved from treadmill data. Runnermon can run over hills, through swamps, or across any harsh terrain without losing speed. What truly sets it apart, though, isn't its speed or agility, but its stamina. It can maintain its top speed for incredibly long stretches, without hardly ever taking a break.<br>\nIts special moves are Lightning Rush, where it attacks an enemy's blind spot at lightning speed, and Heartbeat Impulse, where it fires a severing energy blade from its tail.",
-        "img": "https://digimon.net/cimages/digimon/runnermon.jpg"
-    },
-    {
-        "name": "Komondomon",
-        "level": "Champion",
-        "type": "Beast",
-        "attribute": "Data",
-        "specialMoves": [
-            "Howling Wiper",
-            "Masshigurun"
-        ],
-        "description": "A Vehicle-species Digimon that loves moving around carrying other Digimon on its back. Wherever Komondomon goes, it goes with a carefree disposition, traversing any footholds as if on a stroll. It can even spin its tail to swim underwater. Its long fur is always dirty from dragging along the ground, but it actually likes to be clean. Komondomon dislikes fighting, fleeing to prioritize the safety of its passenger Digimon. But when enemies attack, it intercepts with Howling Wiper to loom over them and scrub them with its shaggy feet hair, and Masshigurun to blow them away with a violent charge.",
-        "img": "https://digimon.net/cimages/digimon/komondomon.jpg"
-    },
-    {
-        "name": "Pulsemon",
-        "level": "Rookie",
-        "type": "Beast Man",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Electric Rush",
-            "Minor Impulse"
-        ],
-        "description": "A Digimon whose Digivolution was influenced by EKG waveform data stored in hospitals and gyms. Pulsemon has a lively, upbeat personality and is happy to interact with anyone. Its characteristic lightning-shaped hair reflects its emotions, and will droop when Pulsemon is feeling down.<br>\nIn battle, Pulsemon makes use of its natural speed to make it tricky to pin down, moving around in lightning-shaped patterns.<br>\nIts special moves are Electric Rush, where it slams into its opponent at lightning speed, and Minor Impulse, where it fires a blast of biologically-produced electricity from its hair.<br>\nA large number of Digimon aside from Pulsemon have been discovered to be influenced by human biological data when improving their abilities or Digivolving.",
-        "img": "https://digimon.net/cimages/digimon/pulsemon.jpg"
-    },
-    {
-        "name": "Exermon",
-        "level": "Champion",
-        "type": "Insectoid",
-        "attribute": "Data",
-        "specialMoves": [
-            "Insec-Mind",
-            "Defib Shock"
-        ],
-        "description": "A Digimon that Digivolved from data on yoga teachings. Exermon lives primarily in alpine regions, where it practices its own unique fighting style that makes use of its peculiar invertebrate-like movements. Blessed with impeccable balance and a strong core, it can support its entire weight on its rear stinger in a variety of seemingly impossible poses. Meanwhile, its feelers absorb sunlight, which its body converts into electrical energy.<br>\nIn battle, Exermon uses Insec-Mind to telepathically confuse its opponent via its feelers. With Defib Shock, Exermon shocks the opponent by touching it with two fists, one positively charged and the other negatively.",
-        "img": "https://digimon.net/cimages/digimon/exermon.jpg"
-    },
-    {
-        "name": "Bulkmon",
-        "level": "Champion",
-        "type": "Dragon Man",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Electrical Fist",
-            "Thunder Dread"
-        ],
-        "description": "Bulkmon is a Digimon that Digivolved from the data on a body-composition analyzer designed to measure muscle mass. Extremely aggressive, it has hyper-developed upper-body muscles that allow it to generate some serious power, making it top class among Champion-level Digimon. Despite its bulk, it can move with an explosive force to overwhelm enemies with both speed and power. Bulkmon works hard, only stopping its training to eat or sleep.<br>\nIts special move Electrical Fist is a lightning-charged punch that sends enemies flying. If an opponent tries to keep their distance, they will find themselves on the end of Thunder Dread, a blast of lightning Bulkmon discharges from its horn.",
-        "img": "https://digimon.net/cimages/digimon/bulkmon.jpg"
-    },
-    {
-        "name": "Omegamon: Merciful Mode",
-        "level": "Mega",
-        "type": "Holy Knight",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Graceful Cannon",
-            "Fearsome Blade"
-        ],
-        "description": "An angelic form of Omegamon with white wings that flutter like a scarf. Sensing that some can only be saved by fighting and defeating them, Omegamon’s sadness and resolve transformed it into Omegamon: Merciful Mode. Photon Spread, which flows over its entire body, appears as pale blue lines of light that resemble tears rolling down cheeks. This Photon Spread runs throughout its body, drastically boosting its power for a short time. This being judges Digimon who have strayed from their path and are unable to return, saving them in the process. The targets of Omegamon Merciful Mode’s attacks are always those who originally possessed hearts of virtue. <br>\n<br>\nOmegamon’s Transcendent Sword has transformed into a katana-like shape known as the Fearsome Blade. Omegamon beheads its target reluctantly with a single stroke. Its special move Supreme Cannon has also transformed into Graceful Cannon, which it uses to shoot a laser of absolute zero cold.",
-        "img": "https://digimon.net/cimages/digimon/omegamon_merciful.jpg"
-    },
-    {
-        "name": "DoneDevimon",
-        "level": "Mega",
-        "type": "Dark Angel",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Destruction Claw",
-            "Ultimate Flare",
-            "Mias-spew"
-        ],
-        "description": "DoneDevimon is a Digimon that reached the Mega level by taking in as much negative data as possible. Its mental state lies somewhere between madness and sanity, but when angered it loses all trace of reason, lashing out like a wild beast. Any Digimon attacked by a rampaging DoneDevimon is utterly annihilated. <br>\nDoneDevimon’s special moves include Destruction Claw, where it strikes through an opponent’s body, and Ultimate Flare, by which it fires a destructive energy beam from its mouth. Finally, it can attack with Mias-spew, which involves manifesting two giant arms to pummel foes by using the negative data overflowing within it.",
-        "img": "https://digimon.net/cimages/digimon/donedevimon.jpg"
-    },
-    {
-        "name": "WereGarurumon: Sagittarius Mode",
-        "level": "Ultimate",
-        "type": "Beast Man",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Kaus Slugger",
-            "Alnas Shot",
-            "Wolf Claw"
-        ],
-        "description": "In this form, WereGarurumon uses the mobility device Sagittarius to compensate for the maneuverability it lost when it Digivolved from Garurumon. In addition to the Sagittarius boosters making it possible for it to fly and move at high speeds, this also gives WereGarurumon: Sagittarius Mode a ballistic attack. Retaining its intense loyalty, it will rescue its master from even the most desperate circumstances. This represents its progression into an even more reliable combat professional. WereGarurumon: Sagittarius Mode uses its special move Kaus Slugger to emit a sharp blade from the Sagittarius that it sweeps towards foes, or Alnas Shot to fire twin lasers that home in on the enemy’s weak spots. It uses these moves to strategically manipulate its targets.",
-        "img": "https://digimon.net/cimages/digimon/waregarurumon_sagittarius.jpg"
-    },
-    {
-        "name": "Imperialdramon: Dragon Mode (Black)",
-        "level": "Mega",
-        "type": "Ancient Dragon",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Megadeath"
-        ],
-        "description": "An Ancient Dragon Digimon that went berserk after it lost control of its overwhelming strength. Once Imperialdramon: Dragon Mode (Black) goes berserk, it runs the gamut of destruction, and no technique can stop it. It supposedly has a Virus Dragon warrior Mode form that controlled this destructive power with a dark heart. Imperialdramon: Dragon Mode (Black) uses its special move Megadeath to fire dark matter that wipes out everything in a several-hundred meter radius around the point of impact.",
-        "img": "https://digimon.net/cimages/digimon/imperialdramon_dragon_black.jpg"
-    },
-    {
-        "name": "Manticoremon",
-        "level": "Ultimate",
-        "type": "Dark Beast",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Trinity Gospel",
-            "Acid Injection"
-        ],
-        "description": "A ferocious Dark Beast Digimon that prefers the DigiCores of Virus Digimon. Noticing Manticoremon’s fixation on fiendish viruses, Angel-species Digimon took it into their employ. Lacking reason and intelligence, its exists solely to yearn for and devour the data of others. <br>\nManticoremon uses its special move Trinity Gospel to fire energy balls from the three mouths on its head and arms, and Acid Injection to skewer the enemy with its three tails and inject strong acid into their body. The Angel Digimon that employ it sometimes lose control of the extreme brutality it demonstrates in battle.",
-        "img": "https://digimon.net/cimages/digimon/manticoremon.jpg"
-    },
-    {
-        "name": "Baluchimon",
-        "level": "Champion",
-        "type": "Holy Beast",
-        "attribute": "Data",
-        "specialMoves": [
-            "Psychic Chain",
-            "Cloud Vision"
-        ],
-        "description": "These Holy Beast Digimon are confirmed to exist in droves in ruins excavated from underneath Folder Continent. These ruins have been recognized to have once been used as a fortress for Angel-species Digimon, and it is conjectured that the herds of Baluchimon were defenders of this fortress. While calm and gentle by nature, Baluchimon also possesses a ferocious side that causes it to attack enemies unrelentingly. <br>\nHighly intelligent, Baluchimon will perceive an invader’s hostility in an instant, and then use Psychic Chain to constrict its opponent’s body with psychokinetic chains and drive them away. For those who unwittingly stumble into the ruins, it will use Cloud Vision to emit a cloud that shows illusions, luring them out of the ruins in a dreamy daze.",
-        "img": "https://digimon.net/cimages/digimon/baluchimon.jpg"
-    },
-    {
-        "name": "Mimicmon",
-        "level": "Champion",
-        "type": "Mutant",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Dead Shot",
-            "Hinder Miasma"
-        ],
-        "description": "A Champion Digimon thought to be a mutation of security software for protecting computers. Having captured and taken in Virus types that invaded its territory, Mimicmon itself has now taken on a Virus attribute. Many Digimon are sealed within its body, and each of the arms and horns sticking out of its cage are thought to be a separate Digimon. ",
-        "img": "https://digimon.net/cimages/digimon/mimicmon.jpg"
-    },
-    {
-        "name": "DarkMaildramon",
-        "level": "Champion",
-        "type": "Android",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Dark Wing"
-        ],
-        "description": "The form taken by Knightmon’s servant Maildramon, having gained the power of miracles, abandoned justice, and discovered the righteousness of evil. Its Chrome Digizoid armor stained with darkness, DarkMaildramon seeks a dark heart within its master Knightmon. It will be obedient to a Knightmon with a strong heart of evil, but if even a shred of goodness exists within its master, it would crush it to death with its giant body. DarkMaildramon uses its special move Dark Wing to flap its torn wings and rain dark bullets upon the enemy.",
-        "img": "https://digimon.net/cimages/digimon/darkmaildramon.jpg"
-    },
-    {
-        "name": "Rebellimon",
-        "level": "Ultimate",
-        "type": "Android",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Vanquish Missile",
-            "Maximum Demolisher"
-        ],
-        "description": "An Android Digimon equipped with a high-powered engine. A Digimon on the brink of death was took in surrounding junk data to Digivolve. Remodeling this junk body to become more powerful, this outlaw loots parts from other Mechanical Digimon. Rebellimon is sometimes seen racing noisily with a swarm of Machmon in tow. <br>\nIt uses its special move Vanquish Missile to launch a large quantity of missiles from its left arm, and Maximum Demolisher to mince and pulverize the enemy’s body with the heavy equipment on its right arm.",
-        "img": "https://digimon.net/cimages/digimon/rebellimon.jpg"
-    },
-    {
-        "name": "MetalGreymon: Alterous Mode",
-        "level": "Ultimate",
-        "type": "Android",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Positron Blaster",
-            "Alter Blade",
-            "Giga Destroyer",
-            "Trident Arm",
-            "Giga Storm"
-        ],
-        "description": "MetalGreymon has acquired a mighty power by mechanizing its upper body, and has updated its right arm with further mechanization. With the accumulation of fierce battles it survived, it has converted its right arm into a massive energy cannon called Alterous in order to deal with the powerful foes to come. MetalGreymon: Alterous Mode uses its special move Positron Blaster to concentrate energy into Alterous and shoot cannon fire at sublight speed, or Alter Blade to cut with a positron blade of accumulated energy. It demonstrates perfect combat ability at both short and long range, having redesigned itself into a new form that defeats any tough foes it encounters.",
-        "img": "https://digimon.net/cimages/digimon/metalgreymon_alter.jpg"
-    },
-    {
-        "name": "Machmon",
-        "level": "Champion",
-        "type": "Android",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Full Throttle Edge",
-            "Madness Fire"
-        ],
-        "description": "An Android Digimon in the pursuit of speed. Dust clouds on otherwise empty plains are usually caused by Machmon’s wild rides. Although Machmon resembles a motorcycle, it lacks any seat, nor does it have any intention of letting someone ride it. Despite this, it believes it will find a Digimon destined to drive it skillfully one day. A natural-born delinquent, Machmon is hostile to all things that move at high speeds. <br>\nIt uses its special move Full Throttle Edge to dice up the enemy with blades protruding all over, and Madness Fire to indiscriminately fire the four gun muzzles attached to the sides of its front wheel.",
-        "img": "https://digimon.net/cimages/digimon/machmon.jpg"
-    },
-    {
-        "name": "Junkmon",
-        "level": "Rookie",
-        "type": "Puppet",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Parabolic Junk",
-            "Scrap Teeth"
-        ],
-        "description": "A Puppet Digimon that tends to toss junk parts into the cannon on its back. Junkmon dismantles the structure of its surroundings to arrange a hospitable environment for itself. If familiar workshops suddenly disappear, it may be the work of a Junkmon herd. When it discovers an enemy, it uses Parabolic Junk to smack the sack at the base of its cannon with its tail, shooting out the junk parts stashed within to repel the opponent. Against persistent foes, it uses Scrap Teeth to sink its prized incisors into the opponent.",
-        "img": "https://digimon.net/cimages/digimon/junkmon.jpg"
-    },
-    {
-        "name": "HeavyLeomon",
-        "level": "Mega",
-        "type": "Machine",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Barrage Sweeper",
-            "Resting Burner",
-            "Sonic Excavator"
-        ],
-        "description": "A Machine Digimon with a heavyweight frame rare among the many types of Leomon. HeavyLeomon’s charging power is the greatest of all Machine types, making its difficult for any to take its rush head-on. The source of that power is its passionate fighting spirit, doubling its strength the more it burns. And unlike a weapon made only for combat, HeavyLeomon is a kind soul who engages in rescue work; if there’s a Digimon in need, it will rush in headlong to deal with any obstacles. <br>\nAlthough its passionate fighting spirit surges in combat, it analyzes opponents and faces them with composure. HeavyLeomon attains reliable victory in battle with infallible tactics, using Barrage Sweeper to fire a barrage from the autocannon deployed on its left shoulder at long range, Resting Burner to shoot ultra-high temperature flames from the lion armor on its chest at mid range, and Sonic Excavator to charge at the enemy with maximized fighting spirit to pierce them with its pile bunker at close range.",
-        "img": "https://digimon.net/cimages/digimon/heavyleomon.jpg"
-    },
-    {
-        "name": "Nidhoggmon",
-        "level": "Mega",
-        "type": "Dark Dragon",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Annihilention",
-            "Rudiment"
-        ],
-        "description": "Nidhoggmon is a colossal Digimon that is constantly taking in a tremendous amount of energy, leaving it in a perpetual state of thermal runaway. The light emanating from its wings is a sign of what stage of thermal runaway it’s currently in, as that light turns redder and redder the closer Nidhoggmon gets to the danger zone. Locked into a constant cycle of energy absorption and destruction, after Nidhoggmon passes through an area, it leaves nothing in its wake. <br>\nIts special moves include Annihilention, where it fires red-hot beams from its eyes, and Rudiment, which involves condensing the energy inside its body into a wave that it fires from its mouth.",
-        "img": "https://digimon.net/cimages/digimon/nidhoggmon.jpg"
-    },
-    {
-        "name": "Hopmon",
-        "level": "In-Training II",
-        "type": "Baby Dragon",
-        "attribute": "",
-        "specialMoves": [
-            "Hop Hip"
-        ],
-        "description": "A Baby Dragon Digimon that Digivolved from Ketomon. Hopmon is covered in scales too small to discern with the naked eye, making its body sturdier than it looks. It has overcome its cowardice, and has developed a sense of justice along with a hatred for wickedness despite its young age. It uses its signature move Hop Hip to bounce like a super ball and strike with its rear end.",
-        "img": "https://digimon.net/cimages/digimon/hopmon.jpg"
-    },
-    {
-        "name": "Parasaurmon",
-        "level": "Champion",
-        "type": "Dinosaur",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Stunning Sweetness",
-            "Wavy Octavist"
-        ],
-        "description": "A gentle Dinosaur Digimon living in warm climates. Parasaurmon has fruit-like organs attached around its long neck that waft a sweet aroma. This scent serves to inform its herd of its position, with each member having a slightly different smell. <br>\nParasaurmon is rarely attacked by other Digimon drawn to it by this aroma, but on such occasions it will use Stunning Sweetness to breathe out a paralyzing gas that robs foes of their freedom. In battle, it uses Wavy Octavist to unleash a loud, ultra-low roar capable of breaking rocks, swallowing tens of meters around it in a whirlpool of destruction.",
-        "img": "https://digimon.net/cimages/digimon/parasaurmon.jpg"
-    },
-    {
-        "name": "Ketomon",
-        "level": "In-Training I",
-        "type": "Slime",
-        "attribute": "",
-        "specialMoves": [
-            "Poppin' Tear"
-        ],
-        "description": "A Slime Digimon known for its large eyes. Ketomon’s eyes have the ability to discern a Digimon’s nature, letting it detect brutal Digimon ahead of time and convey the danger to its comrades. When driven into a corner, it will use Poppin' Tears to discharge acidic bubbles, perturbing foes as it cries.",
-        "img": "https://digimon.net/cimages/digimon/ketomon.jpg"
-    },
-    {
-        "name": "Entmon",
-        "level": "Ultimate",
-        "type": "Vegetation",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Dryad Stinger",
-            "Blasted Disaster"
-        ],
-        "description": "A Vegetation Digimon with a body of withered trees woven and fused together. Entmon’s entire body is eroding in places, with mold growing on the parts with the bark stripped off. Its body is packed with throngs of insects that serve as muscles to move it around. Whenever it flies with its dead leaf wings, insects spill from its joints in a repulsive scene. <br>\nEntmon uses its special move Dryad Stinger to skewer the enemy with sharp stake-like tusks, and Blasted Disaster to spit a dusky miasma that completely withers the opponent’s flesh. This miasma is actually innumerable small insects that feed on Digimon data.",
-        "img": "https://digimon.net/cimages/digimon/entmon.jpg"
-    },
-    {
-        "name": "Pomumon",
-        "level": "Rookie",
-        "type": "Vegetation",
-        "attribute": "Data",
-        "specialMoves": [
-            "Rapid Seed",
-            "Fruit Rush"
-        ],
-        "description": "This Vegetation Digimon may look like a Bird type, but its body is stuffed with high sugar content juice, just like a fruit. For this reason, Pomumon has many natural enemies, from Bird to Insect Digimon. Although it has wings, it flies slowly and becomes defenseless during flight, so it stays mostly on land. <br>\nWhen it senses danger, Pomumon uses Rapid Seed to spit innumerable seed-like bullets from its mouth as a defensive technique. It also uses Fruit Rush to curl up and charge, more as a means of escape than attack.",
-        "img": "https://digimon.net/cimages/digimon/pomumon.jpg"
-    },
-    {
-        "name": "Toropiamon",
-        "level": "Ultimate",
-        "type": "Vegetation",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Petally Carnage",
-            "Tropical Venom\t"
-        ],
-        "description": "A Vegetation Digimon living in the deepest jungles. Toropiamon is thought to have taken in data of various fruit and vegetation to Digivolve into its splendid appearance. Its intense body odor is like a mix of all kinds of fruits, and is strong enough to cause the uninitiated to pass out. The droplets secreted from its leaves that act as wings are toxic enough to melt iron. Toropiamon uses its special move Petally Carnage to launch a mass of explosive pollen from the petals on its neck. It also uses Tropical Venom to breathe gas from its mouth. This is an intense poison fomented within its body that melts anyone who inhales it from the inside out.",
-        "img": "https://digimon.net/cimages/digimon/toropiamon.jpg"
-    },
-    {
-        "name": "Eyesmon: Scatter Mode",
-        "level": "Champion",
-        "type": "Dark Dragon",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Janengan",
-            "Shadow Bind"
-        ],
-        "description": "The scattered form of Eyesmon. Eyesmon: Scatter Mode monitors social networking services streaming high volumes of data, devouring and storing the largest chunks. Although one of these Digimon is weak when alone due to fragmentation, they will reform into a single entity to counterattack in the face of danger. Eyesmon: Scatter Mode uses its special move Janengan to fire a cursed beam from its eyes, or Shadow Bind to enter the enemy’s shadow and control its movements.",
-        "img": "https://digimon.net/cimages/digimon/eyesmon_scatter.jpg"
-    },
-    {
-        "name": "Betamon (X Antibody)",
-        "level": "Rookie",
-        "type": "Aquatic",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Electric Shock 185V",
-            "Electric Shock"
-        ],
-        "description": "An Amphibian Digimon that walks on four legs. Betamon is a docile Digimon with a mild temperament, although it won’t hesitate to unleash its special move Electric Shock when angered, attacking its enemies with over a million volts of electric current.<br>\n<br>\n■Effects of the X Antibody on Betamon’s DigiCore:<br>\nBetamon (X Antibody)’s mild temperament and emerald green body have made some enthusiasts hunt its kin for viewing pleasure. Although it is endangered, it is gradually growing accustomed to battle, as a life form evolving into a splendid Aquatic Digimon. Both its crest and foot claws have developed, allowing it to attack enemies that approach. Electric Shock is also powered up to 1.85 MV Electric Shock, enabling Betamon (X Antibody) to unleash 1.85 megavolts when its anger reaches its peak.",
-        "img": "https://digimon.net/cimages/digimon/betamon_x.jpg"
-    },
-    {
-        "name": "Gazimon (X Antibody)",
-        "level": "Rookie",
-        "type": "Mammal",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Electric Stun Blast",
-            "Booby Pit"
-        ],
-        "description": "A Mammal Digimon with huge, sharp claws. Gazimon is bipedal, which is unusual for Mammal types. The claws on its front limbs may have developed while it used them like arms, leading to Gazimon using its hind legs to walk. While not a large Digimon, it has an exceedingly wild temperament, and it never tries to get along with humans. The claws on its forelimbs are extremely effective for attacking, but are also surprisingly well-suited to digging holes. Due to Gazimon’s mischievous nature, it enjoys making pitfalls for other Digimon to fall into. It uses its special move Electric Stun Blast to breathe out a poisonous gas.<br>\n<br>\n■Effects of the X-Antibody on Gazimon’s DigiCore:<br>\nGazimon (X Antibody) has adopted a fighting style that takes advantage of its bipedal stance, making itself look bigger to overwhelm Digimon smaller than itself. Furthermore, it has acquired Booby Pit, a crafty fighting style that it uses to drop Digimon bigger than itself into special pitfalls. If the situation warrants, it will then fire off an Electric Stun Blast.",
-        "img": "https://digimon.net/cimages/digimon/gazimon_x.jpg"
-    },
-    {
-        "name": "Argomon",
-        "level": "In-Training I",
-        "type": "Mutant",
-        "attribute": "",
-        "specialMoves": [
-            "Acid Bubbles"
-        ],
-        "description": "An In-Training Digimon born from a bug in a calculation algorithm. Argomon tend to congregate in places where high-capacity data leaks out. They gather one at a time, forming a swarm that fully covers the place.",
-        "img": "https://digimon.net/cimages/digimon/algomon_lv1.jpg"
-    },
-    {
-        "name": "Ghostmon",
-        "level": "Rookie",
-        "type": "Ghost",
-        "attribute": "Data",
-        "specialMoves": [
-            "Little Plasma",
-            "Jack Raid"
-        ],
-        "description": "A Ghost Digimon often seen reveling in graveyards. Ghostmon is naturally shy and timid, preferring to stay out of sight, but it has a good heart and is happy to help anyone in need so long as it’s invisible. <br>\nWhen it has to fight, it can attack with Little Plasma, where it fires a small burst of energy from its palm, or move around in unorthodox ways with Jack Raid, which involves rushing straight towards a foe, then disappearing right before hitting them so it can attack from behind while its enemy is still confused.",
-        "img": "https://digimon.net/cimages/digimon/ghostmon.jpg"
-    },
-    {
-        "name": "Regalecusmon",
-        "level": "Mega",
-        "type": "Aquatic",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Briona Strike",
-            "Reactor Discharge"
-        ],
-        "description": "An aloof Aquatic Digimon with an aversion to groups. Regalecusmon is a pirate, repeatedly raiding other Digimon’s territory and pillaging their feeding grounds. Its overwhelming strength also makes it the undisputed conqueror of the deeps, where it stands at the top of the food chain. Its sword, which it made from a horn it tore from a Zudomon’s head, together with the giant pincer on its left arm, serve as symbols of terror that instill fear in any who lay eyes on them. <br>\nIts special moves include Briona Strike, where it pierces foes with the sword in its right hand while also blasting them with lightning, and Reactor Discharge, which involves discharging plasma from its pincer to blow away everything in its surroundings, including the seawater.",
-        "img": "https://digimon.net/cimages/digimon/regalecusmon.jpg"
-    },
-    {
-        "name": "Gusokumon",
-        "level": "Ultimate",
-        "type": "Crustacean",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Brunt Claw",
-            "Colony Torpedo"
-        ],
-        "description": "A Crustacean Digimon that lives in the dark ocean, far underwater where light never reaches. Gusokumon is also known for its long lifespan, due to its ability to maintain its vital functions with a minimal expenditure of energy. It preys on the wounded Digimon that occasionally sink down to the depths. It hardly ever moves unless necessary. <br>\nWhen approached by an enemy, Gusokumon will attempt to fight them off with Brunt Claw, attacking with the sharp claws on its forelegs. Against multiple foes, it will fire organic weapons shaped like small fish from its back using Colony Torpedo. While these fish-like weapons don’t move very fast, they set off huge explosions upon contact, much like sea mines.",
-        "img": "https://digimon.net/cimages/digimon/gusokumon.jpg"
-    },
-    {
-        "name": "Eyesmon",
-        "level": "Champion",
-        "type": "Dark Dragon",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Janengan",
-            "Deceptive Illusion"
-        ],
-        "description": "A Digimon that can hide in shadow. Eyesmon grows stronger the more data it accumulates, surpassing even Ultimate-level power depending on the amount stored. Its countless eyes capture any and all movements of its enemies. Eyesmon uses its special move Janengan to fire cursed beams from all of its eyes, or Deceptive Illusion to materialize stored data into offensive and defensive objects.",
-        "img": "https://digimon.net/cimages/digimon/eyesmon.jpg"
-    },
-    {
-        "name": "Piranimon",
-        "level": "Ultimate",
-        "type": "Aquatic",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Cruel Invitation",
-            "Calamity Vise"
-        ],
-        "description": "A vicious Aquatic Digimon that acts in large schools. The exoskeleton that covers Piranimon’s head enhances the power of its jaws, helping it to crush foes with its sharp fangs. The sheer power of its bite is said to rival Mammothmon’s stomp. <br>\nPiranimon uses Cruel Invitation to run through prey with its fishhook-like tail and drag them into the water. Then it clamps down on them with its bite and rapidly spins around with Calamity Vise, riddling their body with holes as it finishes them off. Since Piranimon target lone Digimon and attack in groups, they leave behind no trace of their prey’s data.",
-        "img": "https://digimon.net/cimages/digimon/piranimon.jpg"
-    },
-    {
-        "name": "MarinKimeramon",
-        "level": "Ultimate",
-        "type": "Composite",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Poseidon Vortex",
-            "Aqua Viper"
-        ],
-        "description": "A Composite Digimon made by combining parts from various Aquatic Digimon. MarinKimeramon is thought to have been created using the same process as Kimeramon, but besides this theory, it remains a mystery. It will appear out of nowhere like a sudden storm, devastate an entire ecosystem with its immense destructive power, and then vanish. <br>\nIts special moves include Poseidon Vortex, where it spins its entire body at incredible speed, creating a maelstrom, and Aqua Viper, which involves firing a massive energy beam from the tip of its horn that vaporizes anything in the vicinity.",
-        "img": "https://digimon.net/cimages/digimon/marinchimairamon.jpg"
-    },
-    {
-        "name": "Sangomon",
-        "level": "Rookie",
-        "type": "Mollusk",
-        "attribute": "Data",
-        "specialMoves": [
-            "Refuge Mist",
-            "Coral Pressure"
-        ],
-        "description": "A Mollusk Digimon living in the shallows of the Net Ocean. Sangomon has a gentle and cheerful disposition that allows it to form connections with many other species. It uses Shellmon’s back as a bed, and Crabmon has been witnessed trimming the coral protruding from its head. When attacked by an invader, Sangomon uses Refuge Mist, a tear-inducing poisonous mist scattered from its coral, to make its escape. When this fails, it fights back with Coral Pressure, shooting high-pressure water from the ends of its arms.",
-        "img": "https://digimon.net/cimages/digimon/sangomon.jpg"
-    },
-    {
-        "name": "Tobiumon",
-        "level": "Champion",
-        "type": "Aquatic",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Suckerfish Darts",
-            "Flying Finish"
-        ],
-        "description": "An Aquatic Digimon that pursues its prey at high speeds. Tobiumon’s bizarrely developed fins give it the ability to fly, and its large arms allow it to move on the ground. It takes down targets on land, sea and air, earning it the nickname “Hunter Fish.” After Tobiumon dulls its prey’s movements with Suckerfish Darts, which are organic missiles fired from its stomach, it lands a killing blow with Flying Finish, which is a high-speed slash with sharp fins.",
-        "img": "https://digimon.net/cimages/digimon/tobiumon.jpg"
-    },
-    {
-        "name": "Gogmamon",
-        "level": "Ultimate",
-        "type": "Ore",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Giant Grater",
-            "Curse Reflection"
-        ],
-        "description": "An Ore Digimon with a massive frame. Gogmamon is said to be part of what is currently a small population, and most of its kind live solitary existences deep within caves. Gogmamon eats very little of what others would consider food, only emerging from its cave from time to time to store energy from the sun inside the crystals on its body. <br>\nGogmamon’s special moves include Giant Grater, where it crushes foes with the crystals on its arms, and Curse Reflection, which involves shooting out the energy it’s stored up from the tips of its crystals. It uses these attacks to utterly destroy any intruders into its cave.",
-        "img": "https://digimon.net/cimages/digimon/gogmamon.jpg"
-    },
-    {
-        "name": "Sunarizamon",
-        "level": "Rookie",
-        "type": "Reptile",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Grit Nail",
-            "Sand Blast"
-        ],
-        "description": "Sunarizamon is a Reptile Digimon mainly found in desert areas that lives in groups and relies on camouflage. By regulating the volume of the sand that composes its body it is able to expand, contract, or transform its limbs and tail. This makes it nearly impossible to discern once it’s blended into its desert environment. It’s not unheard of for what might look like a patch of quicksand to turn out to be a group of Sunarizamon. <br>\nSunarizamon can also defend itself from predators with its special moves. These include Grit Nail, by which it transforms the ends of its forelegs into claws to scratch at foes, and Sand Blast, where it grinds down an enemy’s body by spitting out a stream of sand.",
-        "img": "https://digimon.net/cimages/digimon/sunarizamon.jpg"
-    },
-    {
-        "name": "JewelBeemon",
-        "level": "Ultimate",
-        "type": "Insectoid",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Spike Buster"
-        ],
-        "description": "An Insectoid Digimon resembling a jewel beetle that emits a rainbow shimmer. JewelBeemon’s prismatic armor changes colors depending on the viewing angle, dazzling the enemy in addition to offering protection. This melee expert prefers beautiful battles. It uses its special move Spike Buster to swing the spear in its right hand at the speed of light and create shockwaves.",
-        "img": "https://digimon.net/cimages/digimon/jewelbeemon.jpg"
-    },
-    {
-        "name": "Baboongamon",
-        "level": "Champion",
-        "type": "Beast",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Mount Stone",
-            "Glide Rocks"
-        ],
-        "description": "A highly territorial Beast Digimon. Baboongamon prefers to live in areas with steep changes in elevation such as cliffs and rocky mountains. The characteristic rock that covers parts of its hide grows back harder each time it’s broken, and the individual with the hardest rocky covering acts as the boss of any given region. <br>\nIts special moves include Mount Stone, where it attacks by throwing the rocks that cover its arms, and Glide Rocks, which involves ramming its rock-encrusted tail into foes at high speed.",
-        "img": "https://digimon.net/cimages/digimon/baboongamon.jpg"
-    },
-    {
-        "name": "Arresterdramon: Superior Mode",
-        "level": "Ultimate<br>(Xros Wars)",
-        "type": "Dragon",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Blaze Spiker",
-            "Mach Flicker",
-            "Flog Shot",
-            "Spin Caliber",
-            "Spiral Shredder",
-            "Prism Garrett"
-        ],
-        "description": "An enhanced form of Arresterdramon that grew even stronger after its desire for strength manifested a new Kinkoji binding. Arresterdramon: Superior Mode’s larger wings have improved its ability to fly, its huge new Tail Anchor is sharper than ever, and the shape of its right arm, thought to come from Bagramon, symbolizes the immense destructive power Arresterdramon gained. <br>\nThe Kinkoji, normally a binding meant to inhibit power, would manifest in such a way as to prove that Arresterdramon: Superior Mode is a Digimon that uses its power for good. It uses its drastically increased might to confront evil Digimon. <br>\nIts special move is Blaze Spiker, a flaming heel palm strike. When unleashed at full strength, this move will break through even the strongest defense.",
-        "img": "https://digimon.net/cimages/digimon/arresterdramon_superior.jpg"
-    },
-    {
-        "name": "Hudiemon",
-        "level": "Champion",
-        "type": "Insectoid",
-        "attribute": "Free",
-        "specialMoves": [
-            "Flying Kick",
-            "Infinity Dream"
-        ],
-        "description": "An Insectoid Digimon with a humanoid form and butterfly wings. Hudiemon is cautious at first, but reveals cheerful, playful expressions once it gets comfortable. It traverses the Digital World, fluttering elegantly in places the light touches. Hudiemon’s existence is akin to a backup of the Digital World, accessing the world’s records and saving the immense quantities of data within itself. Even if a disaster were to cause all records and memories of the Digital World to vanish, the lost data would be restored as long as Hudiemon is around. <br>\n<br>\nIt uses its special move Flying Kick to soar high into the air for the eponymous kick, or Infinity Dream to flap its wings and create a gust of wind carrying its scales. Infinity Dream can inflict poison or paralysis on Hudiemon’s foes, but is mainly used to ease the pain of injured allies and lift their spirits.",
-        "img": "https://digimon.net/cimages/digimon/hudiemon.jpg"
-    },
-    {
-        "name": "Greymon (X Antibody)",
-        "level": "Champion",
-        "type": "Dinosaur",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Mega Flame",
-            "Mega Burst"
-        ],
-        "description": "A Dinosaur Digimon with skin hardened into a protective carapace around its skull. Aggressive by nature, Greymon uses its sharp claws and colossal horns as lethal weapons. Taming it earns you an intelligent ally of unmatched strength. Its special move is Mega Flame, by which it shoots searing flames from its mouth, incinerating all.<br>\n<br>\n■Effects of the X Antibody on Greymon’s DigiCore:<br>\nAs a Combat Species, Greymon was already superior among Dinosaur Digimon, but Greymon (X Antibody) has gained even more aggression. Its body is relatively small compared to the usually oversized Dinosaur Digimon, but it demonstrates ample ferocity befitting a carnivorous dinosaur, and has grown in strength through victory in battle. Greymon (X Antibody) has acquired Mega Burst, which it uses to charge up a Mega Flame in its mouth, maximizing its destructive power before unleashing it to explosive effect.",
-        "img": "https://digimon.net/cimages/digimon/greymon_x.jpg"
-    },
-    {
-        "name": "Garurumon (X Antibody)",
-        "level": "Champion",
-        "type": "Beast",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Fox Fire"
-        ],
-        "description": "A wolf-like Beast Digimon with a pale silver pelt. Garurumon’s fur is said to be as hard as Mithril, the legendary rare metal, and the blades that extend from its shoulders are so sharp they can sever anything they touch. With its physique honed in the frozen tundra and its intense instinct for conflict, Garurumon is feared by other Digimon for its predatory ferocity and agility. However, it is also remarkably intelligent, and steadfastly loyal to those it acknowledges as its leader. Its special move is Fox Fire, by which it breathes out an intense stream of blue flames.<br>\n<br>\n■Effects of the X-Antibody on Garurumon’s DigiCore:<br>\nGarurumon (X Antibody)’s rare fur has hardened even further in regions of extreme cold, removing any possibility of harming it through simple means. Its combat instinct has grown even fiercer, and it will fight to the bitter end, so scant few Digimon are willing to take on Garurumon (X Antibody). As it boasts the greatest qualities of a Combat Species Digimon, its Tamer must have suitable qualifications as well.",
-        "img": "https://digimon.net/cimages/digimon/garurumon_x.jpg"
-    },
-    {
-        "name": "Argomon",
-        "level": "Champion",
-        "type": "Mutant",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Volt Line",
-            "Imprisonment"
-        ],
-        "description": "Argomon after it has Digivolved into a Champion form, abnormally increasing its processing ability. Its power has also increased, and now it can lift even large foes with hands that have become industrial manipulators. It uses its special move Imprisonment to restrain foes with tentacles extending from its mouth, or Volt Line to shoot an electric current through the enemy.",
-        "img": "https://digimon.net/cimages/digimon/algomon_lv4.jpg"
-    },
-    {
-        "name": "Argomon",
-        "level": "Rookie",
-        "type": "Mutant",
-        "attribute": "Virus",
-        "specialMoves": [
-            "Brute Knuckles",
-            "Imprisonment"
-        ],
-        "description": "The Rookie form of Argomon. It protects young Argomon as they consume data, intercepting any enemies that draw near. It attacks with Brute Knuckles, punching with the tentacles on both hands curled into balls, and Imprisonment, restraining foes with loose tentacles.",
-        "img": "https://digimon.net/cimages/digimon/algomon_lv3.jpg"
-    },
-    {
-        "name": "Argomon",
-        "level": "In-Training II",
-        "type": "Mutant",
-        "attribute": "",
-        "specialMoves": [
-            "Acid Bubbles"
-        ],
-        "description": "The form the newborn Argomon grows into. It clings to spots where high-capacity data leaks out, eating data with the mouth on its underside. When enemies approach, it blows Acid Bubbles from its large eye-like pattern.",
-        "img": "https://digimon.net/cimages/digimon/algomon_lv2.jpg"
-    },
-    {
-        "name": "Spadamon",
-        "level": "Rookie",
-        "type": "Weapon",
-        "attribute": "Free",
-        "specialMoves": [
-            "Sugar Pound",
-            "Blade Blender",
-            "Aurora Blazer"
-        ],
-        "description": "A Weapon Digimon that can transform its body into a weapon, and one of the fabled Legend-Arms said to be capable of either saving the world in the hands of an angel, or destroying it in the hands of a devil. Despite Spadamon’s serious and hardworking personality, it can also succumb to pressure from time to time. Its combat strength is low, but it shows its true worth in weapon mode.",
-        "img": "https://digimon.net/cimages/digimon/spadamon.jpg"
-    },
-    {
-        "name": "Morphomon",
-        "level": "Rookie",
-        "type": "Insectoid",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Intense Therapy"
-        ],
-        "description": "A Digimon with hands and ears composed of butterfly wings. Morphomon has a laid-back personality, and feels enjoyment toward nature. When it meets someone for the first time, it touches them to determine whether they’re safe or not. If they are, and if it takes a liking to them, Morphomon will go with them. When Morphomon’s ear-wings flap vigorously, this is apparently a sign of it being in a great mood. It uses Intense Therapy to scatter scales from its wings with varying effects depending on the opponent, soothing mind and body or paralyzing the target.",
-        "img": "https://digimon.net/cimages/digimon/morphomon.jpg"
-    },
-    {
-        "name": "Eosmon",
-        "level": "Mega",
-        "type": "Unknown",
-        "attribute": "Unknown",
-        "specialMoves": [
-            "Aurora Stream",
-            "Cutting Edge",
-            "Cruelty Rain"
-        ],
-        "description": "The Mega form of Eosmon born when a researcher lost control after things didn’t go as expected, fusing multitudes of Eosmon into a single being. Eosmon (Mega) runs amok, following a sole instruction: eliminate all obstacles. New Ultimate Eosmon are produced from its bulging tail, allowing it to increase its subordinates. <br>\nEosmon (Mega) uses its special move Aurora Stream to fire a beam from its chest, Cutting Edge to teleport and slash the enemy, and Cruelty Rain to enlarge the panels that protect it before crashing them down upon the enemy.",
-        "img": "https://digimon.net/cimages/digimon/eosmon_lv6.jpg"
-    },
-    {
-        "name": "Gabumon (Bond of Friendship)",
-        "level": "Mega",
-        "type": "Unknown",
-        "attribute": "Unknown",
-        "specialMoves": [
-            "Full-Metal Machinegun",
-            "Cool Edge",
-            "Moon Phase",
-            "Raddle Star"
-        ],
-        "description": "A final, legendary Digivolution, the end result of limitless potential realized through the deepened bond of a Gabumon and its partner. The undying friendship of its partner becomes elegant armor that covers its body, materializing as proof of their faith as they run along in tandem. The photon wings sprouting from its back allow it to fly, but it can also transform into the shape of the motorbikes beloved by its partner, letting them ride together. Gabumon (Bond of Friendship) uses its special move Full-Metal Machinegun to rain down iron from the cowl parts on both arms, and Cool Edge to purge its cowl parts for an instantaneous strike. Furthermore, it has no openings at any distance, using Moon Phase to fire laser beams in all directions, and Raddle Star to unleash AI-equipped tracking weapons.",
-        "img": "https://digimon.net/cimages/digimon/gabumon_kizuna.jpg"
-    },
-    {
-        "name": "Eosmon",
-        "level": "Ultimate",
-        "type": "Unknown",
-        "attribute": "Unknown",
-        "specialMoves": [
-            "Beat Press",
-            "Hexa-thunder",
-            "Cutting Edge"
-        ],
-        "description": "The Digivolved form taken by a Champion Eosmon when it encountered an obstruction while carrying out its mission. Eosmon (Ultimate) deploys even more transparent panels, gaining large wings for high-speed movement, and large hands for powerful attacks. It can also create illusions that act as mirrors to deceive its enemies. Eosmon (Ultimate) can also rearrange its transparent panels to transform into Beast Mode and attack its foes. It uses its special move Beat Press to crush enemies with gigantic hands, Hexa-thunder to fire electricity from its antennae, and Cutting Edge to throw panel-shaped energy from its hands, slicing through its opponent.",
-        "img": "https://digimon.net/cimages/digimon/eosmon_lv5.jpg"
-    },
-    {
-        "name": "Agumon (Bond of Bravery)",
-        "level": "Mega",
-        "type": "Unknown",
-        "attribute": "Unknown",
-        "specialMoves": [
-            "Red Reamer",
-            "Striking Salamander Slash",
-            "Gaia Brave"
-        ],
-        "description": "A final, legendary Digivolution, the end result of limitless potential realized through the deepened bond of an Agumon and its partner. The fortuitous courage of its partner becomes burning flame that erupts from its body, emerging as proof of their deep faith. Having deepened its understanding of humans through this long relationship, its Digivolved form takes on an almost humanoid appearance. <br>\nAgumon (Bond of Bravery) uses its special move Red Reamer to burn the enemy with high-density red lasers from its claw tips, Striking Salamander Slash to pierce foes with its tail lance, and Gaia Brave to unleash the flame of courage within it as a superheated energy bomb.",
-        "img": "https://digimon.net/cimages/digimon/agumon_kizuna.jpg"
-    },
-    {
-        "name": "Eosmon",
-        "level": "Champion",
-        "type": "Unknown",
-        "attribute": "Unknown",
-        "specialMoves": [
-            "Mirror Guard",
-            "Mirror Dust",
-            "Bolt Rip"
-        ],
-        "description": "An artificial Digimon based on a certain other Digimon. While it’s been commonly accepted that artificial Digimon peak at Rookie level, extensive research has overturned this assumption, allowing Eosmon to Digivolve to Champion level. It lacks emotion, moving according to the instructions of researchers. Any good or evil deed it performs depends on how a researcher programmed it. <br>\nEosmon (Champion) uses Mirror Guard to spread its transparent, panel-like wings in order to protect itself and targets, or Mirror Dust to detach its wings and launch them at the enemy. It also uses its special move Bolt Rip to imbue its scales with electric shocks from its palms and launch them at its foes.",
-        "img": "https://digimon.net/cimages/digimon/eosmon_lv4.jpg"
-    },
-    {
-        "name": "Omegamon Zwart",
-        "level": "Mega",
-        "type": "Holy Knight",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Supreme Cannon",
-            "Transcendent Sword"
-        ],
-        "description": "A Holy Knight Digimon and member of the Royal Knights, Omegamon Zwart was fused from the Virus Busters WarGreymon and MetalGarurumon by the will of those who wish for good. Omegamon Zwart is able to draw on the qualities of both Digimon to the fullest extent under any circumstances, making it a capable and versatile fighter. It’s thought that Omegamon Zwart’s form has temporarily turned black due to some form of exposure to Black Digitron, which is an odd sort of ooze recently discovered that turns Digimon black. While in this form, Omegamon Zwart boasts increased power. Its left arm is in the shape of WarGreymon, with a sword and shield, and its right arm takes the shape of MetalGarurumon, equipped with a cannon and missiles. The cloak on its back deploys automatically when it needs to avoid enemy attacks or to fly. Omegamon Zwart uses its special move Supreme Cannon to fire a blast of absolute zero air from its MetalGarurumon-shaped cannon and freeze the opponent. Its left arm is also equipped with the invincible blade, Transcendent Sword.",
-        "img": "https://digimon.net/cimages/digimon/omegamon_zwart.jpg"
-    },
-    {
-        "name": "TonosamaMamemon",
-        "level": "Mega",
-        "type": "Mutant",
-        "attribute": "Data",
-        "specialMoves": [
-            "Appare Zakura",
-            "Sensugaeshi"
-        ],
-        "description": "A Mamemon that underwent mutation after reading data regarding period drama films. Always cheerful and happy-go-lucky, TonosamaMamemon drags around its hakama, constantly falling all over itself and getting tangled up in it, much to the delight of smiling onlookers. It welcomes any Digimon who comes to its castle with open arms. Were any to disturb the peace of the castle town, however, it will punish them without mercy...tumbling and stumbling the entire way. TonosamaMamemon uses its special move Appare Zakura to unleash cherry blossoms from its fan, judging the opponent’s wrongdoings and sapping their will to fight. That being said, Appare Zakura is easily affected by the wind, and has been known to fall short in the face of headwinds. It also uses Sensugaeshi to repel any enemy attack to impressive effect.",
-        "img": "https://digimon.net/cimages/digimon/tonosamamamemon.jpg"
-    },
-    {
-        "name": "Terriermon Assistant",
-        "level": "Rookie",
-        "type": "Beast",
-        "attribute": "Vaccine",
-        "specialMoves": [
-            "Dai Bacchi Gū",
-            "Terrier Tornado"
-        ],
-        "description": "A studious Terriermon who helps Agumon Expert. Terriermon Assistant loves nothing more than learning about the different types of Digimon and their ecologies, then passing on that knowledge to others. In addition to its signature move Terrier Tornado, it also has Dai Bacchi Gū, where it enlarges the pin on its chest and sends it flying.",
-        "img": "https://digimon.net/cimages/digimon/terriermon_assistant.jpg"
-    },
-    {
-        "name": "CrysPaledramon",
-        "level": "Ultimate",
-        "type": "Dragon Man",
-        "attribute": "Data",
-        "specialMoves": [
-            "Frozen Claw",
-            "Callous Dimension"
-        ],
-        "description": "CrysPaledramon is a Dragon Man Digimon that only a few Paledramon are said to be capable of Digivolving into. Its icy exterior has developed further, transforming into a kind of armor that covers its entire body. This greatly increases its offensive and defensive capabilities. <br>\nThanks to the pillars of ice that extend from its wings, it is now able to maintain its form unchanged, even when facing Digimon that give off incredible heat. What’s more, the cold air produced by its thrusters allows it to manipulate the surrounding air currents, helping it to fly even faster in the midst of a blizzard. <br>\nIts special moves include Frozen Claw, where it uses the ice claws on both arms to rip through foes before freezing their wounds, and Callous Dimension, which involves causing a localized blizzard to freeze its enemies along with anything else nearby.",
-        "img": "https://digimon.net/cimages/digimon/cryspaledramon.jpg"
-    },
-    {
-        "name": "Metallicdramon",
-        "level": "Mega",
-        "type": "Sky Dragon",
-        "attribute": "Data",
-        "specialMoves": [
-            "Laser Cannon",
-            "Laser Saber"
-        ],
-        "description": "Metallicdramon is a Digimon that flies through the upper reaches of the Digital World’s atmosphere at the speed of light, so not even other flying Digimon can ever catch a glimpse of its form. According to one theory, when Metallicdramon flaps its wings from far overhead, it helps spread strange particles that maintain harmony in the Digital World. If Metallicdramon ever descends far enough that it becomes visible, it’s likely a sign that something big is about to happen. <br>\nIts special move Laser Cannon involves firing a powerful beam of light it stores up in the laser gun in its tail, annihilating anything in its line of fire. The light from this attack is so bright that it’s visible from over five miles away, and anyone who witnesses it up close is instantly blinded. <br>\nIt can also shape its tail laser into the form of a sword that it uses to attack foes by charging into them at high speed with Laser Saber.",
-        "img": "https://digimon.net/cimages/digimon/metallicdramon.jpg"
-    },
-    {
-        "name": "Jazarichmon",
-        "level": "Ultimate",
-        "type": "Machine Dragon",
-        "attribute": "Data",
-        "specialMoves": [
-            "Messer Spiral",
-            "N.S.B.M"
-        ],
-        "description": "A Digimon specializing in aerial combat that flies at the speed of sound. Jazarichmon is master dogfighter that’s shot down countless foes. It’s reckoned among the best aerial combatants in the Digital World, and is even considered to be a match for Wingdramon. Since it has legs, it can fly unhindered at the speed of sound even when passing low over the ground or when traveling through an area with many obstacles. <br>\nIt can charge forward to attack foes while spinning at high speed with its special move Messer Spiral, and even when an opponent manages to get behind it, it can intercept them with a laser fired from its tail using N.S.B.M.",
-        "img": "https://digimon.net/cimages/digimon/jazarichmon.jpg"
     }
 ]
 
